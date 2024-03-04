@@ -1,46 +1,588 @@
 
 /* taxi liên tỉnh giá tốt */
 .header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f5efef;
-    padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5efef;
+  padding: 10px;
+}
+
+.navbar-left {
+  flex-grow: 1;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.navbar-icon img {
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  transform: skewX(10deg);
+  width: 7%;
+} 
+
+/* logo  RIDEK... hotline...*/
+
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  margin-right: 80px;
+}
+
+.logo {
+  width: 250px;
+  /* Adjust the width of the logo as per your needs */
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-right: px;
+}
+
+.icon {
+  width: 50px;
+  /* Adjust the width of the icons as per your needs */
+  height: 50px;
+  /* Adjust the height of the icons as per your needs */
+  margin-right: 5px;
+  /* Adjust the spacing between icons as per your needs */
+}
+
+.text {
+  font-size: 14px;
+  color: black;
+}
+
+/* Tạo css thanh Nav ngang Trang chủ, ... */
+
+.navbar {
+
+  left: -16%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(238, 169, 42);
+  padding: 10px;
+  width: 60%;
+  transform: skew(10deg);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 10px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.search-icon,
+.menu-icon {
+  width: 95px;
+  height: 50px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* nut tìm kiếm thanh nav trang chu... */
+.search-icon img,
+.menu-icon img {
+  width: 57%;
+  height: 100%;
+}
+
+/* nút search  nut tim kiem*/
+
+
+.collapse {
+  display: none;
+  width: 200px;
+  /* Set the desired width */
+  height: 850px;
+  /* Set the desired height */
+}
+
+.show {
+  display: block;
+}
+
+.navbar-toggler {
+  width: 300px;
+  /* Set the desired width */
+  height: 40px;
+  /* Set the desired height */
+}
+
+
+
+/* code css tạo comtact  thanh NAV TRANGCHU...*/
+
+
+ .contact-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  width: 109px;
+  height: 56px;
+
+  }  
+
+
+/* nut css  thanh nav menu trang chu... */
+.navbar {
+  transform: skewX(0deg);
+  /* Độ nghiêng -20 độ */
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+
+}
+
+.navbar-brand img {
+
+  width: 50px;
+}
+
+.navbar-text {
+  display: flex;
+  align-items: center;
+
+
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar-text img {
+  width: 300px;
+  height: auto;
+  margin-right: 10px;
+
+
+
+
+}
+/*  */
+
+
+
+
+
+
+/*  */
+.navbar-text p {
+  margin: 0;
+  color: #f4f5f8;
+  display: inline-block;
+  margin: 0;
+  font-size: 20px;
+  /* Thay đổi kích thước chữ theo ý muốn */
+  white-space: nowrap;
+  /* Ngăn chữ xuống dòng */
+  overflow: hidden;
+  /* Ẩn nội dung dư thừa */
+  text-overflow: ellipsis;
+  /* Hiển thị dấu chấm 3 chấm (...) khi chữ bị cắt ngang */
+}
+
+.contact-info {
+  margin-top: 10px;
+  color: #f4f5f8;
+  font-size: 20px;
+
+
+
+}
+
+.content {
+  margin-top: 80px;
+  /* Đảm bảo nội dung không bị che phủ bởi thanh navbar */
+
+}
+
+
+/* code css độ dài thanh  nav tìm kiếm trangchu... */
+
+
+
+
+
+
+/* .menu-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.search-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}    */
+
+/* thanh css nut menu trangchu...*/
+ 
+.col-right-nav{
+  display: flex;
+  flex-direction: row;
+}
+.navbar-colright{
+  width: 50px;
+}
+
+
+.nav.navbar.navbar-dark.bg-dark{
+  width: 50px;
+}
+
+
+.container {
+  position: relative;
+} 
+
+
+
+ .modal {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  /* Đặt modal vào giữa trang ngang */
+  width: 50%;
+  z-index: 9999;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dùng thư viện di chuyển trang book you */
+.carousel {
+  width: 100%;
+  height: 500px;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-60%);
+  width: 60%;
+  padding-left: 15px;
+}
+
+.carousel-caption h1 {
+  margin-bottom: 20px;
+  color: #faf1f1;
+  text-align: start;
+}
+
+.carousel-caption .img-car {
+  left: 966px;
+  position: relative;
+  bottom: 220px;
+  width: 500px;
+}
+
+/* code css tạo đường chéo book your */
+.carousel-caption::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  bottom: 0%;
+  left: 90%;
+  width: 200px;
+  height: 220%;
+  transform: skew(-30deg);
+  background-color: #ff9900;
+  border-right: 4px solid transparent;
+
+}
+
+.section-onlinecar .img-car {
+  position: absolute;
+  width: 350px;
+  right: -250px;
+  top: -100px;
+}
+
+/* code css màu chữ book you p */
+.carousel-caption p {
+  color: white;
+  /* Màu chữ trắng */
+  font-size: 18px;
+  /* Kích thước chữ 18px */
+  text-align: start;
+}
+
+/* button */
+.btn-view-more {
+  float: left;
+  left: 30%;
+  width: 30%;
+  height: 50px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orange;
+  /* Màu cam */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+
+  position: relative;
+}
+
+.btn-view-more:hover {
+  background-color: darkorange;
+  /* Màu cam tối khi hover */
+}
+
+/* code css chuyển động qua trang book */
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 50%;
+  height: 50%;
+  /* transform: translate(40%, 40%);  */
+
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  *
+}
+
+.carousel-item.active .carousel-caption {
+  opacity: 1;
+
+}
+
+.carousel-caption h1 {
+
+  font-weight: bold;
+  left: 60%;
+  margin-bottom: 20px;
+  animation: slide-up 0.5s ease forwards;
+
+  text-align: text;
+  position: relative;
+}
+
+.carousel-caption p {
+  font-size: 18px;
+  animation: slide-up 0.5s ease 0.3s forwards;
+  text-align: text;
+  position: relative;
+  left: 60%;
+
+}
+
+.carousel-caption .btn-view-more {
+  font-size: 16px;
+  animation: slide-up 0.5s ease 0.6s forwards;
+
+
+}
+
+.carousel-caption .img-car {
+  position: absolute;
+  width: 600px;
+  height: auto;
+  right: 200%;
+  top: -99px;
+
+  opacity: 0;
+  animation: drive-in 1s ease 0.9s forwards;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translate(-50%, 50%);
+    opacity: 0;
   }
-  
-  .navbar-left {
-    flex-grow: 1;
+
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
   }
-  
-  .navbar-right {
-    display: flex;
-    gap: 10px;
+}
+
+@keyframes drive-in {
+  from {
+    transform: translate(100%, -50%);
+    opacity: 0;
   }
-  
-  .navbar-text {
-    font-size: 18px;
-    font-weight: bold;
+
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
   }
-  
-  .navbar-link {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-    margin-right: 10px;
-  }
-  
-  .navbar-icon img {
-    width: 40px;
-    height: 30px;
-    border-radius: 50%;
-  }
-  
-  .contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    color: #fff;
-    transform: skewX(10deg);
-    width: 7%;
-  }
+}
+
+/* code css chỉnh nút button book */
+
+
+.button-carousel {
+  position: relative;
+  bottom: 10px;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  */ position: absolute;
+  bottom: 20px;
+  /* Điều chỉnh khoảng cách từ nút đến phía dưới của trang */
+  left: 100px;
+  /* Điều chỉnh khoảng cách từ nút đến phía trái của trang */
+  background-color: black;
+  /* Đặt màu nền của nút là trắng */
+  border: none;
+  /* Xóa viền của nút */
+  color: black;
+  /* Đặt màu chữ là đen */
+  padding: 10px;
+  /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
+  position: fixed;
+  top: -180px;
+}
+
+/*  code css màu nút button book*/
+.button-carousel button {
+  background-color: black;
+  /* Đặt màu nền của nút là đen */
+  color: white;
+  /* Đặt màu chữ là trắng */
+  border: none;
+  /* Xóa viền của nút */
+  padding: 10px;
+  /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
+}
+
+.button-carousel .carousel-control-prev-icon,
+.button-carousel .carousel-control-next-icon {
+  color: white;
+  /* Đặt màu của biểu tượng là trắng */
+}
+
+.button-carousel button:hover {
+  background-color: darkgray;
+  /* Thay đổi màu nền của nút khi di chuột qua */
+}
+
+.button-carousel button:focus {
+  outline: none;
+  /* Xóa viền xung quanh nút khi được tập trung */
+}
+
+/* clip path cắt ảnh boook you */
+.carousel-caption::after {
+
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: 80px;
+  top: 55%;
+  right: 80%;
+  left: -55%;
+  background-color: #f4f5f8;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
+
+}
+
+.search-bar {
+  left: 0px;
+  position: relative;
+}
+
+.nav-menu {
+  position: relative;
+  left: 550px;
+  width: 60%;
+}
+/* nut tim kiem */
+.white-bg {
+  background-color: white;
+}

@@ -244,3 +244,6 @@ $(document).ready(function () {
   $('.multiple-items').slick({
   });
 });
+
+/* tạo css search trang chu...thanh nav */
+
