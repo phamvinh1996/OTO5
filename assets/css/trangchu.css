@@ -889,7 +889,7 @@ p {
   right: -35px;
 }
 
-
+/* hiệu ứng css xe car dịch vụ nỗi bật */
 
 .card-image2:hover {
   animation: imageEffect 0.5s ease-in-out;
@@ -906,7 +906,18 @@ p {
     transform: scale(1);
   }
 }
+/* nút xem thêm dịch vụ nỗi bật */
+.nutxemthem {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
 
+.nutxemthem:hover {
+  background-color: darkorange;
+}
 
 
 
