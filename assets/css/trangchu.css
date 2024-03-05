@@ -944,6 +944,16 @@ p {
 /*  */
 /* ĐẶT XE NHANH */
 
+.section-online-booking {
+  background-color: #1c1c1c;
+  background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/texture.png');
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 100px 0;
+
+}
+
+
 .section-online-booking h3 {
   color: #e8dede;
   /* Màu chữ trắng */
@@ -989,14 +999,7 @@ p {
 
 }
 
-.section-online-booking {
-  background-color: #1c1c1c;
-  background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/texture.png');
-  background-repeat: no-repeat;
-  position: relative;
-  padding: 100px 0;
 
-}
 
 
 /* màu button */
