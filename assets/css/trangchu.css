@@ -745,7 +745,7 @@ p {
 /* carrt anhr chen anh banner dich vu noi bat */
 .cart-service{ 
   position: relative;
-  bottom: 140px;
+  bottom: 150px;
 }
 .cover-image .text {
   font-size: 36px;
@@ -818,15 +818,6 @@ p {
 
 
 
-/* tạo css nút chuyển trang  dịch vụ nổi bật*/
- .card-navigation {
-  position: absolute;
-  bottom: -70px;
-  left: 50%;
-  transform: translateX(-70%);
- 
-
-}
 
 /* .prev-btn,
 .next-btn {
@@ -867,7 +858,7 @@ p {
 }
 
 .next-btn {
-  right: 950px;
+  right: 200px;
 }
 
 
@@ -983,5 +974,83 @@ p {
   background-repeat: no-repeat;
   position: relative;
   padding: 100px 0;
+
+}
+
+
+/* màu button */
+/* TẠO DÒNG CHỮ CHOOSE TATXI */
+.centered-text {
+  text-align: center;
+}
+
+.centered-text h1 {
+  color: #130e0e;
+}
+
+/*  TẠO CART ẢNH CHOOSEE TAXI */
+.cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.cart-image {
+  margin-right: 20px;
+}
+
+.cart-image img {
+  width: 250px;
+  height: 150px;
+}
+
+.cart-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-title {
+  margin: 0;
+}
+
+.cart-price,
+.cart-fee,
+.cart-seats {
+  margin: 5px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+   /* background-color: #d6b10b; */
+  color: rgb(240, 228, 228);
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  background-color: #e9e3df;
+}
+
+.cart-title {
+  color: black;
+}
+
+
+.btn-primary {
+  color: #101114;
+  background-color: #f0e6e6;
+ width: 40%;
+ height: 50%;
 
 }
