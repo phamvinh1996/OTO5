@@ -139,24 +139,29 @@ cars.forEach((car, index) => {
 
 /* Dịch vụ nổi  bật */
 
-/* tao chuyen dong book you */
 
 
 
 
- $('.single-item-rtl').slick({
-   rtl: true
- });
+
+
+
+
+$('.single-item-rtl').slick({
+  rtl: true
+});
 
 
 
 
 /* di chuyển trang dịch vụ nổi bât */
-  $('.multiple-items').slick({
-    infinite: true,
-   slidesToShow: 3,
-   slidesToScroll: 3
-  });
+ $('.multiple-items').slick({
+   infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+ });
+
+
 
 
 
@@ -245,5 +250,4 @@ $(document).ready(function () {
   });
 });
 
-/* tạo css search trang chu...thanh nav */
 
