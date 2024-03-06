@@ -1330,3 +1330,96 @@ h1 {
   width: 50px;
   height: 50px;
 }
+/*  */
+
+
+/* call us now */
+.section-online-thepeople {
+  background-color: #1c1c1c;
+  background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/texture.png');
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 100px 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* code css chữ và ảnh call us */
+.icon-text {
+  display: flex;
+  align-items: center;
+  color: rgb(166, 201, 14);
+  font-size: 28px;
+ text-align: left; 
+ 
+}
+
+
+.icon-text img {
+  width: 70px; /* Điều chỉnh kích thước của ảnh icon tại đây */
+  height: 70px;
+  margin-right: 5px; /* Điều chỉnh khoảng cách giữa ảnh icon và chữ tại đây */
+}
+/* clip path cắt ảnh */
+.section-online-thepeople {
+  position: relative;
+  background-color: #1c1c1c;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.section-online-thepeople::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 200px;
+  background-color: #f4f5f8;
+  clip-path: polygon(100% 100%, 0 100%, 100% 0);
+}
+
+.section-online-thepeople::before {
+  content: 0;
+  position: absolute;
+  width: 750px;
+  left: -400px;
+  top: -200px;
+}
+
+.title {
+  color: rgb(224, 212, 212);
+  /* Thay đổi màu chữ thành màu đỏ */
+}
+/* màu chữ p call us  */
+.white-text {
+  color: white;
+}
+.img-car {
+  width: 300px;
+  /* Đặt chiều rộng hình ảnh thành 200 pixel */
+  height: auto;
+  /* Đặt chiều cao tự động, giữ nguyên tỷ lệ khung hình */
+}
+
+/* code tạo tin tức sự kiện chữ màu */
+.card-title {
+  color: rgb(9, 8, 8);
+}
+
+.card-text {
+  color: rgb(9, 9, 11);
+} 
+
+
