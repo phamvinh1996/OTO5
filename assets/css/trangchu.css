@@ -1092,7 +1092,7 @@ p {
 }
 
 .xeoto {
-  margin-left: 170px;
+  margin-left: -40px;
   position: absolute;
   top: 35%;
 }
@@ -1215,7 +1215,7 @@ h2 {
 .overlay-image {
    position: relative;
  
-  left: 601px;
+  left: 385px;
   top: 69px;
   /* Giá trị số âm để di chuyển hình ảnh lên trên */
 }
