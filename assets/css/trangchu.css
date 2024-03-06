@@ -1419,3 +1419,195 @@ h1 {
 } 
 
 
+/*  */
+
+
+/* footer */
+
+
+
+
+
+.background-image {
+  background-color: #1c1c1c;
+  background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/city-skiline.png');
+  background-size: cover;
+
+
+  background-position: center;
+  height: 600px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  flex: 0 0 auto;
+  
+}
+/* Lớp che phủ */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  color: #fff;
+  text-align: center;
+}
+.logo-image {
+  width: 200px; /* Kích cỡ logo */
+  height: auto;
+}
+
+.content {
+  flex: 1;
+}
+
+.contact-info,
+.subscribe {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  color: #f0e6e6;
+}
+
+.subscribe input {
+  width: 200px; /* Kích cỡ ô đăng ký */
+}
+
+.subscribe button {
+  padding: 5px 10px;
+}
+/* dòng chữ trắng p */
+
+.description {
+  color: white;
+}
+/* nút màu cam */
+button {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* cắt path slide */
+
+nav {
+  background-color: orange;
+  height: 80px;
+  width: 60%;
+  right: -40%;
+  position: absolute;
+  top: -1%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+}
+
+.nav-menu li:last-child {
+  margin-right: 0;
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hotline {
+  background-color: orange;
+  padding: 5px 10px;
+  clip-path: polygon(100% 0, 100% 70%, 70% 100%, 0% 100%, 0 0);
+}
+
+.hotline-text {
+  color: rgb(20, 15, 15);
+  font-size: 20px;
+
+}
+
+/*  */
+.copyright-wrap {
+  background-color: #1c1c1c;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+p {
+  color: #f0e6e6;
+}
+
+
+
+/* code css tạo hàng chữ địa chỉ, mở cửa, liên kết */
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.contact-label, .opening-label, .links-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-info, .opening-info, .links-info {
+  margin: 0;
+}
+
+.links-info {
+  margin-bottom: 5px;
+}
+
+.subscribe input[type="email"] {
+  padding: 5px;
+  width: 200px;
+  margin-right: 5px;
+}
+
+.subscribe button {
+  padding: 5px 10px;
+  background-color: #ca880e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
