@@ -1511,9 +1511,6 @@ nav {
   right: -40%;
   position: absolute;
   top: -1%;
-
-
- 
 }
 
 .nav-container {
@@ -1610,8 +1607,6 @@ nav {
   border: none;
   cursor: pointer;
 }
-
-
 /* màu chữ footer địa chỉ, mở cửa */
 .sidebar {
   /* Your sidebar styles here */
@@ -1648,9 +1643,6 @@ nav {
 .links-info {
   margin: 0;
 }
-
-
-
 /* màu chữ 123web footer */
 .footer-text{
   color: white;
