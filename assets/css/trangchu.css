@@ -1644,3 +1644,56 @@ nav {
 .footer-text{
   color: white;
 }
+
+
+/* code css tạo chuyển động xe ô tô */
+.icon-car {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  top: 200px;
+  position: relative;
+}
+
+.icon-car .car1 {
+  animation: carAnimation 6s linear infinite;
+}
+
+@keyframes carAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+.icon-car .car2 {
+  animation: carAnimation2 6s linear infinite;
+}
+
+@keyframes carAnimation2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.icon-car .car3 {
+  animation: carAnimation3 6s linear infinite;
+}
+
+@keyframes carAnimation3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
