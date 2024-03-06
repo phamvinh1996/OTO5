@@ -1565,12 +1565,6 @@ nav {
   margin: 0 auto;
 }
 
-p {
-  color: #f0e6e6;
-}
-
-
-
 /* code css tạo hàng chữ địa chỉ, mở cửa, liên kết */
 
 
@@ -1610,4 +1604,44 @@ p {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+
+/*  */
+
+
+.sidebar {
+  /* Your sidebar styles here */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.contact-label,
+.opening-label,
+.links-label,
+.contact-info,
+.opening-info,
+.links-info {
+  color: white;
+}
+
+.contact-label,
+.opening-label,
+.links-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-info,
+.opening-info,
+.links-info {
+  margin: 0;
 }
