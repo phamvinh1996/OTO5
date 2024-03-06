@@ -1554,7 +1554,6 @@ nav {
   font-size: 20px;
 
 }
-
 /*  */
 .copyright-wrap {
   background-color: #1c1c1c;
@@ -1568,8 +1567,6 @@ nav {
 }
 
 /* code css tạo hàng chữ địa chỉ, mở cửa, liên kết */
-
-
 .row {
   display: flex;
   flex-wrap: wrap;
