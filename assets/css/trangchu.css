@@ -1511,6 +1511,9 @@ nav {
   right: -40%;
   position: absolute;
   top: -1%;
+
+
+ 
 }
 
 .nav-container {
@@ -1545,6 +1548,8 @@ nav {
   background-color: orange;
   padding: 5px 10px;
   clip-path: polygon(100% 0, 100% 70%, 70% 100%, 0% 100%, 0 0);
+  /* đường ghạch chéo màu cam */
+
 }
 
 .hotline-text {
@@ -1642,4 +1647,11 @@ nav {
 .opening-info,
 .links-info {
   margin: 0;
+}
+
+
+
+/* màu chữ 123web footer */
+.footer-text{
+  color: white;
 }
