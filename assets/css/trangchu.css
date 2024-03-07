@@ -822,11 +822,10 @@ p {
 
 /* tạo css nút chuyển trang  dịch vụ nổi bật*/
  .card-navigation {
-  position: absolute;
+   position: absolute;
   bottom: -70px;
   left: 50%;
   transform: translateX(-70%);
- 
 
 }
 

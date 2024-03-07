@@ -195,8 +195,8 @@ $(document).ready(function () {
     slidesToScroll: 1, // Di chuyển 1 slide khi chuyển đổi
    autoplay: true, // Tự động chạy slide
     autoplaySpeed: 2000, // Tốc độ chạy slide (ms)
-    prevArrow: '<button class="slick-prev">Previous</button>', // Nút điều khiển slide trước
-  nextArrow: '<button class="slick-next">Next</button>', // Nút điều khiển slide kế tiếp
+    // prevArrow: '<button class="slick-prev">Previous</button>', // Nút điều khiển slide trước
+  // nextArrow: '<button class="slick-next">Next</button>', // Nút điều khiển slide kế tiếp
    responsive: [
     {
       breakpoint: 768, // Tùy chỉnh breakpoint cho responsive
