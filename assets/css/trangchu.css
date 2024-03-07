@@ -91,7 +91,6 @@
 /* Tạo css thanh Nav ngang Trang chủ, ... */
 
 .navbar {
-
   left: -16%;
   display: flex;
   justify-content: space-between;
@@ -99,10 +98,7 @@
   background-color: rgb(238, 169, 42);
   padding: 10px;
   width: 60%;
-  
- 
   clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 100%); 
-
 }
 
 .container {
