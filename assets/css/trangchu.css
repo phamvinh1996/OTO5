@@ -140,7 +140,9 @@
 /* nut tìm kiếm thanh nav trang chu... */
 .search-icon img,
 .menu-icon img {
-  width: 57%;
+  float: left;
+  margin: -2px;
+  width: 63%;
   height: 100%;
 }
 
@@ -148,6 +150,7 @@
 
 
 .collapse {
+  
   display: none;
   width: 200px;
   /* Set the desired width */
@@ -158,8 +161,10 @@
 .show {
   display: block;
 }
-
+/* nút css menu trangchu... */
 .navbar-toggler {
+  float: right;
+  margin: -23px;
   width: 300px;
   /* Set the desired width */
   height: 40px;
@@ -172,14 +177,18 @@
 
 
  .contact-nav {
+
+  position: absolute;
+  top: -25%; /* Adjust the distance from the top as needed */
+  left: 98%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
   color: #fff;
-  width: 109px;
-  height: 56px;
-
+  transform: skewX(0deg);
+  width: 13%; /* Adjust the width as needed */
+  height: 80px;
   }  
 
 
@@ -283,7 +292,8 @@
   flex-direction: row;
 }
 .navbar-colright{
-  width: 50px;
+  height: 53px;
+  width: 53px;
 }
 
 
