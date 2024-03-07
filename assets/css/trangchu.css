@@ -56,9 +56,9 @@
 .logo-container {
   margin-right: 80px;
 }
-
+/* logo ridek thanh */
 .logo {
-  width: 250px;
+  width: 180px;
   
   /* Adjust the width of the logo as per your needs */
 }
@@ -1254,9 +1254,9 @@ h2 {
   border: 1px solid gray;
 }
 /* logo ridek thanh  */
-.logo {
+.logo1 {
   width: 206px;
-  height: 43px;
+  height: 163px;
 }
 
 .company-name {
