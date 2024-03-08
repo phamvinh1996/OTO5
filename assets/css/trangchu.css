@@ -89,7 +89,6 @@
 }
 
 /* Tạo css thanh Nav ngang Trang chủ, ... */
-
 .navbar {
   left: -16%;
   display: flex;
@@ -101,8 +100,6 @@
   /* clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 100%);  */
 
 }
-
-
 .container {
   display: flex;
   justify-content: center;
