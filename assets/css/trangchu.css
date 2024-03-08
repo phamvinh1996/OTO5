@@ -510,19 +510,25 @@
 
 /* code css chỉnh nút button book */
 
-
+/* nút chỉnh butoon  book your */
 .button-carousel {
   position: relative;
-  bottom: 10px;
+  bottom: 58px;
+
+  height: 47px;
+  top: 10%;
+  left: 7%;
+  text-align: center;
+  width: 270px;
 }
 
 
 .carousel-control-prev,
 .carousel-control-next {
-  */ position: absolute;
+   position: absolute;
   bottom: 20px;
   /* Điều chỉnh khoảng cách từ nút đến phía dưới của trang */
-  left: 100px;
+  left: 30px;
   /* Điều chỉnh khoảng cách từ nút đến phía trái của trang */
   background-color: black;
   /* Đặt màu nền của nút là trắng */
@@ -533,7 +539,11 @@
   padding: 10px;
   /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
   position: fixed;
-  top: -180px;
+  top: 30px; 
+
+
+  
+
 }
 
 /*  code css màu nút button book*/
@@ -550,7 +560,7 @@
 
 .button-carousel .carousel-control-prev-icon,
 .button-carousel .carousel-control-next-icon {
-  color: white;
+  color: rgb(233, 226, 226);
   /* Đặt màu của biểu tượng là trắng */
 }
 
