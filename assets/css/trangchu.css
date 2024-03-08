@@ -514,14 +514,12 @@
 .button-carousel {
   position: relative;
   bottom: 58px;
-
   height: 47px;
   top: 10%;
   left: 7%;
   text-align: center;
   width: 270px;
 }
-
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -540,9 +538,6 @@
   /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
   position: fixed;
   top: 30px; 
-
-
-  
 
 }
 
