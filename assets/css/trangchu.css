@@ -1409,19 +1409,30 @@ h1 {
   height: 50px;
 }
 
+
 /* code css chữ và ảnh call us */
 .icon-text {
-  font-size: 16px;
-  color: #23c430;
+  font-size: 28px;
+  color: #dfdb0f;
   margin-top: 10px;
   text-align: left;
+  transform: translateX(-20%);
+  margin-bottom: 20px;
+
+}
+/* code css kích cỡ chữ */
+.custom-image {
+  width: 100px;
+  height: auto;
+  border: 2px solid #000;
+  float: left;
+  /* Add any other styles you want */
 }
 
-.icon-text img {
-  width: 50px; /* Điều chỉnh kích thước của ảnh icon tại đây */
-  height: 50px;
-  margin-right: 5px; /* Điều chỉnh khoảng cách giữa ảnh icon và chữ tại đây */
-}
+
+
+
+
 /* clip path cắt ảnh */
 .section-online-thepeople {
   position: relative;
@@ -1457,7 +1468,6 @@ h1 {
 .white-text {
   color: white;
   position: relative;
-  top: -150px;
 }
 
 
