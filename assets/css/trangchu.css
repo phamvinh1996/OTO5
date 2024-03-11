@@ -634,9 +634,34 @@ img {
 /*  Code CSS VỀ CHÚNG TÔI */
  .container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
+
+}
+/* code css chữ về chúng tôi */
+.container p{
+   z-index: 1;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;   
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  */
+
+p {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/*  */
 h1,
 p {
   flex-basis: 100%;
@@ -734,6 +759,7 @@ p {
   background-color: #ff9900;
   z-index: -1;
 }
+
 
 /* Dịch vụ nỗi bật css */
 
@@ -1420,6 +1446,11 @@ h1 {
 
 
 /*  */
+
+
+
+
+
 
 
 /* footer */
