@@ -1,0 +1,73 @@
+
+/* DỊCH VỤ TRANG */
+
+.hero-section {
+    position: relative;
+    height: 400px; /* Kích thước ảnh nền */
+    width: 1900px;
+    background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/bg-1.jpg');
+    background-size: cover;
+    background-position: center;
+  background-color: black;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-110%, -170%);
+    text-align: center;
+  
+  }
+  
+  .content-hero1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+   color: #fff;
+  }
+  
+  
+  .content-hero2 {
+    font-size: 18px;
+    margin-bottom: 0;
+  top: 70%;
+  transform: translate(40%);
+  color: #fff;
+  }
+ 
+  
+  /* THANH MÀU CAM */
+  /* thanh nav footer hotline */
+  
+  .hero-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Kích thước thanh điều hướng */
+  
+  }
+  
+  
+  .telephone {
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    background-color: #ff9900;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    width: 850px;
+    height: 100px;
+    top: 300px;
+  
+  
+   
+    
+    /*  code chéo ảnh cam*/
+    background-image: repeating-linear-gradient(45deg,#f7a20f 0,#f7a20f 2px,transparent 0,transparent 50%);
+    background-size: 10px 10px;
+  }
+  
+  .telephone-number {
+    font-size: 16px;
+  
+  }
