@@ -952,10 +952,6 @@ p {
 
 /*  */
 /* ĐẶT XE NHANH */
-
-
-
-
 .section-online-booking h3 {
   color: #e8dede;
   /* Màu chữ trắng */
@@ -990,9 +986,7 @@ p {
   height: 80px;
   background-color: #f4f5f8;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
-  
 }
-
 .section-online-booking .img-car {
   position: absolute;
   width: 653px;
@@ -1008,9 +1002,6 @@ p {
   padding: 100px 0;
 
 }
-
-
-
 /* màu button */
 /* TẠO DÒNG CHỮ CHOOSE TATXI */
 
