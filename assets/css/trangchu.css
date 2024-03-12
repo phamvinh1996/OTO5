@@ -1573,12 +1573,9 @@ height: 50px;
    top: 70%; 
   left: 1%;
   transform: translate( 15%);
-
     /* cắt nút bên phải button */
     clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
 }
-
-
 /* cắt path slide */
 nav {
   background-color: orange;
