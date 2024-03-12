@@ -407,7 +407,7 @@
 /* button */
 .btn-view-more {
   float: left;
-  left: 30%;
+  left: 25%;
   width: 30%;
   height: 50px;
   display: inline-block;
@@ -418,9 +418,11 @@
   text-decoration: none;
   border-radius: 5px;
   font-size: 16px;
-
   position: relative;
+  margin-top: 66px;
 }
+
+
 
 .btn-view-more:hover {
   background-color: darkorange;
@@ -462,7 +464,7 @@
   animation: slide-up 0.5s ease 0.3s forwards;
   text-align: text;
   position: relative;
-  left: 60%;
+  left: 8%;
 
 }
 
