@@ -367,7 +367,7 @@
 }
 
 .carousel-caption .img-car {
-  left: 966px;
+  left: 996px;
   position: relative;
   bottom: 220px;
   width: 500px;
@@ -474,9 +474,9 @@
 
 .carousel-caption .img-car {
   position: absolute;
-  width: 600px;
+  width: 675px;
   height: auto;
-  right: 200%;
+  right: 100%;
   top: -99px;
 
   opacity: 0;
