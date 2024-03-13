@@ -1435,11 +1435,6 @@ h1 {
   margin-top: 130px;
   /* Add any other styles you want */
 }
-
-
-
-
-
 /* clip path cắt ảnh */
 .section-online-thepeople {
   position: relative;
@@ -1458,7 +1453,6 @@ h1 {
   background-color: #f4f5f8;
   clip-path: polygon(100% 100%, 0 100%, 100% 0);
 }
-
 .section-online-thepeople::before {
   content: 0;
   position: absolute;
@@ -1466,7 +1460,6 @@ h1 {
   left: -400px;
   top: -200px;
 }
-
 .title {
   color: rgb(224, 212, 212);
   /* Thay đổi màu chữ thành màu đỏ */
@@ -1477,7 +1470,6 @@ h1 {
   position: relative;
   transform: translateX(-33%);
 }
-
 .img-car {
   width:  450px;
   /* Đặt chiều rộng hình ảnh thành 200 pixel */
@@ -1507,11 +1499,6 @@ top: -20%;
 
 
 /* footer */
-
-
-
-
-
 .background-image {
   background-color: #1c1c1c;
   background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/city-skiline.png');
