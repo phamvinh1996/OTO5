@@ -71,3 +71,71 @@
     font-size: 16px;
   
   }
+
+  /* tạo css ảnh background */
+
+  .section-map {
+    background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: orange;
+    padding: 8px 0;
+    width: 1700px;
+   
+  }
+  
+
+  .section-map h1 {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 30px;
+    color: #fff;
+    transform: translate(10%);
+  }
+  
+  .section-map button {
+    width: 100px;
+    height: 50px;
+    margin-top: 23px;
+    color: black;
+    transform: translate(136%);
+  }
+  /* dòng chữ */
+  .col-sm-4 {
+    width: 33.33%;
+    float: center;
+    padding: 15px;
+    transform: translate(-20%);
+    
+  }
+  
+  .section-map {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon-wrapper img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .icon-wrapper p {
+    font-size: 14px;
+  }
+ /*  */
+ .section-map {
+  text-align: right;
+}
+
+.section-people {
+  float: left;
+  
+}
+  
+
