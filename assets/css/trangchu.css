@@ -1478,7 +1478,6 @@ h1 {
   transform: translateX(-33%);
 }
 
-
 .img-car {
   width:  450px;
   /* Đặt chiều rộng hình ảnh thành 200 pixel */
@@ -1489,10 +1488,6 @@ top: -20%;
 }
 
 /*  */
-
-
-
-
 /* code tạo tin tức sự kiện chữ màu */
 .card-title {
   color: rgb(14, 11, 11);
