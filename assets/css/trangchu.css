@@ -172,6 +172,25 @@
 }
 
 
+/* nút trên thanh nav màu cam trang chu, lien he */
+
+.dropdown-toggle.black-text,
+.dropdown-menu .black-text {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 
