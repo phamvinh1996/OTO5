@@ -19,3 +19,155 @@
     top: 1%;
     position: absolute; 
   }
+
+  /* tạo css tạo di chuyển ảnh */
+
+
+  /* dòng chữ h1 */
+
+
+  h1, p {
+    text-align: center;
+  }
+
+  /* tạo css cart ảnh di chuyển */
+
+
+
+
+
+  .logo {
+    width: 80px;
+    margin-right: 10px;
+  }
+
+  .name-company {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .cart {
+    width: 500px;
+    height: 350px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .description {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .cart-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .cart-logo img {
+    margin-right: 5px;
+  }
+  .description  {
+    color: black;
+    text-align: center; /* Căn đều ngang hàng */
+  }
+
+
+
+
+  /*  code chỉnh ảnh di chuyển pre*/
+  
+
+  
+
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cart {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .description {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .cart-logo {
+    text-align: center;
+  }
+  
+  .btn-prev,
+  .btn-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #ccc;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .btn-prev:hover,
+  .btn-next:hover {
+    color: #333;
+  }
+  
+  .btn-prev {
+    left: 10px;
+  }
+  
+  .btn-next {
+    right: 10px;
+  }
+
+
+
+  /* code css pre- next */
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prev,
+  .next {
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .current {
+    margin: 0 10px;
+  }
