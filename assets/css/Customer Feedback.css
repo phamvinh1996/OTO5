@@ -1,4 +1,14 @@
 
+/* logo  */
+.logo-container {
+  width: 130px; /* Điều chỉnh chiều rộng của logo container */
+  height: 50px; /* Điều chỉnh chiều cao của logo container */
+}
+
+.logo {
+  width: 100%; /* Kích thước logo theo chiều rộng của container */
+  height: 100%; /* Kích thước logo theo chiều cao của container */
+}
 
 
 
@@ -172,7 +182,6 @@
   .current {
     margin: 0 10px;
   }
-
 
 
   /* màu chữ trắng footer */
