@@ -210,7 +210,6 @@ background-color: #000000;
   height: 80px;
   }  
 
-
 /* nut css  chinh kich co  thanh nav menu trang chu... */
 .navbar {
   transform: skewX(0deg);
@@ -220,11 +219,9 @@ background-color: #000000;
   height: 30%;
   top: 0;
   z-index: 999;
-
 }
 
 .navbar-brand img {
-
   width: 50px;
 }
 
