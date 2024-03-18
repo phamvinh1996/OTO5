@@ -196,9 +196,7 @@ background-color: #000000;
 }
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 
-
  .contact-nav {
-
   position: absolute;
   top: -25%; /* Adjust the distance from the top as needed */
   left: 98%;
@@ -213,7 +211,7 @@ background-color: #000000;
   }  
 
 
-/* nut css  thanh nav menu trang chu... */
+/* nut css  chinh kich co  thanh nav menu trang chu... */
 .navbar {
   transform: skewX(0deg);
   /* Độ nghiêng -20 độ */
