@@ -98,11 +98,10 @@
   padding: 10px;
   width: 60%;
 
-     /* clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 100%);     */
+        clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 100%);       
 
 
-     
-}
+      }
 .container {
   display: flex;
   justify-content: center;
@@ -138,6 +137,21 @@
   cursor: pointer;
   margin-left: 10px;
 }
+
+/*  */
+/* code css tạo hiển thị menu trên thanh NAV trangchu........ */
+div#offcanvasDarkNavbar{
+background-color: #000000;
+  color: #f3ebeb;
+  width: 500px;
+}
+
+.text-bg-dark h5, .text-bg-dark p, .text-bg-dark a {
+  color: #ffffff;
+}
+
+
+
 
 /* nut tìm kiếm thanh nav trang chu... */
 .search-icon img,
