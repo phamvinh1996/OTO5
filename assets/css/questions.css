@@ -1,0 +1,43 @@
+/* màu chữ */
+
+.content-hero1{
+
+    font-size: 50px;
+    top: -100%;
+    position: absolute; 
+    left: 30%;
+}
+
+.content-he1 {
+
+    color: orange;
+    font-size:  30px;
+
+
+  }
+
+
+
+/* code css */
+.accordion-button:focus,
+.accordion-button:active {
+  background-color: orange;
+}
+
+
+.accordion {
+    float: left;
+    width: 500px; /* Đặt kích thước chiều rộng theo yêu cầu của bạn */
+
+
+    top: 80%;
+    position: absolute; 
+    left: 20%;
+  }
+
+
+  .accordion-body strong {
+    display: inline; /* hoặc display: inline-block; */
+  }
+
+/*  bài viết mới */
