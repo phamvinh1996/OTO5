@@ -237,7 +237,7 @@ div#offcanvasDarkNavbar {
   position: absolute;
   top: -15%;
   /* Adjust the distance from the top as needed */
-  left: 98%;
+  left: 96%;
   display: flex;
   justify-content: center;
   align-items: center;
