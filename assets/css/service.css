@@ -59,9 +59,9 @@
     height: 100px;
     top: 300px;
   
-  
-   
-    
+
+    clip-path: polygon(0 0, 100% 0, calc(100% - 30px) 100%, 0 100%, 60px 0%);
+
     /*  code chéo ảnh cam*/
     background-image: repeating-linear-gradient(45deg,#f7a20f 0,#f7a20f 2px,transparent 0,transparent 50%);
     background-size: 10px 10px;
