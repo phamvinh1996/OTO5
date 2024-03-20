@@ -1,4 +1,3 @@
-
 /* taxi liên tỉnh giá tốt */
 .header-top {
   display: flex;
@@ -43,7 +42,7 @@
   color: #fff;
   transform: skewX(10deg);
   width: 7%;
-} 
+}
 
 /* logo  RIDEK... hotline...*/
 
@@ -56,10 +55,11 @@
 .logo-container {
   margin-right: 80px;
 }
+
 /* logo ridek thanh */
 .logo {
   width: 180px;
-  
+
   /* Adjust the width of the logo as per your needs */
 }
 
@@ -97,11 +97,20 @@
   background-color: rgb(238, 169, 42);
   padding: 10px;
   width: 60%;
+  
+}
+.navbar::before{
+  content: ''; /* Tạo một pseudo-element */
+  position: absolute; /* Vị trí tuyệt đối */
+  top: 0;
+  left: -3%; /* Điều chỉnh theo left của navbar */
+  width: 60%; /* Chiều rộng 100% */
+  height: 100%; /* Chiều cao 100% */
+  background-color: inherit; /* Màu nền giống với navbar */
+  clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 100%); /* Áp dụng clip-path */
+  z-index: -1; /* Đảm bảo pseudo-element hiển thị phía sau phần tử navbar */
 
-        clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 100%);       
-
-
-      }
+}
 .container {
   display: flex;
   justify-content: center;
@@ -140,15 +149,35 @@
 
 /*  */
 /* code css tạo hiển thị menu trên thanh NAV trangchu........ */
-div#offcanvasDarkNavbar{
-background-color: #000000;
+div#offcanvasDarkNavbar {
+  background-color: #000000;
   color: #f3ebeb;
   width: 500px;
 }
 
-.text-bg-dark h5, .text-bg-dark p, .text-bg-dark a {
+.text-bg-dark h5,
+.text-bg-dark p,
+.text-bg-dark a {
   color: #ffffff;
 }
+
+/* nằm chèn mục liên hệ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -166,7 +195,7 @@ background-color: #000000;
 
 
 .collapse {
-  
+
   display: none;
   width: 200px;
   /* Set the desired width */
@@ -177,6 +206,7 @@ background-color: #000000;
 .show {
   display: block;
 }
+
 /* nút css menu trangchu... */
 .navbar-toggler {
   float: right;
@@ -193,12 +223,20 @@ background-color: #000000;
 .dropdown-toggle.black-text,
 .dropdown-menu .black-text {
   color: black;
+
 }
+
+
+
+
+
+
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 
- .contact-nav {
+.contact-nav {
   position: absolute;
-  top: -25%; /* Adjust the distance from the top as needed */
+  top: -25%;
+  /* Adjust the distance from the top as needed */
   left: 98%;
   display: flex;
   justify-content: center;
@@ -206,9 +244,10 @@ background-color: #000000;
   background-color: black;
   color: #fff;
   transform: skewX(0deg);
-  width: 13%; /* Adjust the width as needed */
+  width: 15%;
+  /* Adjust the width as needed */
   height: 80px;
-  }  
+}
 
 /* nut css  chinh kich co  thanh nav menu trang chu... */
 .navbar {
@@ -244,6 +283,7 @@ background-color: #000000;
 
 
 }
+
 /*  */
 
 
@@ -307,29 +347,30 @@ background-color: #000000;
 }    */
 
 /* thanh css nut menu trangchu...*/
- 
-.col-right-nav{
+
+.col-right-nav {
   display: flex;
   flex-direction: row;
 }
-.navbar-colright{
+
+.navbar-colright {
   height: 53px;
   width: 53px;
 }
 
 
-.nav.navbar.navbar-dark.bg-dark{
+.nav.navbar.navbar-dark.bg-dark {
   width: 50px;
 }
 
 
 .container {
   position: relative;
-} 
+}
 
 
 
- .modal {
+.modal {
   position: absolute;
   top: 50%;
   left: 70%;
@@ -337,7 +378,7 @@ background-color: #000000;
   width: 50%;
   z-index: 9999;
 
-} 
+}
 
 /* dùng thư viện di chuyển trang book you */
 .carousel {
@@ -427,6 +468,7 @@ background-color: #000000;
   position: relative;
   margin-top: 66px;
 }
+
 .btn-view-more:hover {
   background-color: darkorange;
   /* Màu cam tối khi hover */
@@ -528,7 +570,7 @@ background-color: #000000;
 
 .carousel-control-prev,
 .carousel-control-next {
-   position: absolute;
+  position: absolute;
   bottom: 20px;
   /* Điều chỉnh khoảng cách từ nút đến phía dưới của trang */
   left: 30px;
@@ -542,7 +584,7 @@ background-color: #000000;
   padding: 10px;
   /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
   position: fixed;
-  top: 30px; 
+  top: 30px;
 
 }
 
@@ -601,6 +643,7 @@ background-color: #000000;
   left: 550px;
   width: 60%;
 }
+
 /* nut tim kiem */
 .white-bg {
   background-color: white;
@@ -637,17 +680,18 @@ img {
 }
 
 /*  Code CSS VỀ CHÚNG TÔI */
- .container {
+.container {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 
 }
+
 /* code css chữ về chúng tôi */
-.container p{
-   z-index: 1;
+.container p {
+  z-index: 1;
   flex-direction: column;
   align-items: center;
-   
+
 }
 
 .content {
@@ -677,7 +721,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-} 
+}
 
 .image {
   width: 220px;
@@ -700,6 +744,7 @@ p {
   width: 50%;
   z-index: 1;
 }
+
 /* Tạo css chuyển động ảnh tròn */
 .Image {}
 
@@ -745,6 +790,7 @@ p {
     transform: rotate(360deg);
   }
 }
+
 /* code css tạo đường chéo về chứng tôi */
 
 
@@ -776,6 +822,7 @@ p {
 .overlay-image {
   animation-play-state: paused;
 }
+
 .cover-image {
   background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg");
   background-position: left;
@@ -789,11 +836,13 @@ p {
   text-align: center;
   color: rgb(227, 215, 215);
 }
+
 /* carrt anhr chen anh banner dich vu noi bat */
-.cart-service{ 
+.cart-service {
   position: relative;
   bottom: 140px;
 }
+
 .cover-image .text {
   font-size: 36px;
 }
@@ -801,18 +850,19 @@ p {
 .cover-image .text {
   color: #f7eded;
   /* Màu chữ trắng */
- } 
+}
 
 .container .card h2 {
   color: #0a0909;
   /* Màu chữ trắng */
-} 
+}
 
 .cover-image p {
   color: #c6b9b9;
   font-size: 18px;
   margin-top: 10px;
 }
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -825,14 +875,14 @@ p {
   border-radius: 8px;
 }
 
- .card-banner {} 
+.card-banner {}
 
- .car-in-card { 
+.car-in-card {
   width: 150%;
-  border-radius: 8px; 
- } 
+  border-radius: 8px;
+}
 
- .card h2 {
+.card h2 {
   font-size: 22px;
   margin-left: 10px;
   text-align: left;
@@ -858,11 +908,11 @@ p {
 
 .button:hover {
   background-color: rgb(190, 97, 17);
-}   
+}
 
 /* tạo css nút chuyển trang  dịch vụ nổi bật*/
- .card-navigation {
-   position: absolute;
+.card-navigation {
+  position: absolute;
   bottom: -70px;
   left: 50%;
   transform: translateX(-70%);
@@ -916,8 +966,9 @@ p {
 .card-image1 {
   width: 100%;
   height: auto;
-  
+
 }
+
 .card-image2 {
   width: 65%;
   height: auto;
@@ -937,13 +988,16 @@ p {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.2);
   }
+
   100% {
     transform: scale(1);
   }
 }
+
 /* nút xem thêm dịch vụ nỗi bật */
 
 .nutxemthem {
@@ -982,17 +1036,19 @@ p {
   bottom: 0;
   left: 0;
   width: 300px;
-   background-color: #da7b0f; 
+  background-color: #da7b0f;
 }
 
 /* đặt màu css button */
 .btn.btn-primary {
   background-color: white;
 }
+
 /* chữ màu chữ đen button */
 .btn.btn-primary {
   color: black;
 }
+
 /* clip path cắt ảnh */
 .section-online-booking::after {
 
@@ -1005,6 +1061,7 @@ p {
   background-color: #f4f5f8;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
 }
+
 .section-online-booking .img-car {
   position: absolute;
   width: 653px;
@@ -1012,6 +1069,7 @@ p {
   top: -5px;
 
 }
+
 .section-online-booking {
   background-color: #1c1c1c;
   background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/texture.png');
@@ -1020,6 +1078,7 @@ p {
   padding: 100px 0;
 
 }
+
 /* màu button */
 /* TẠO DÒNG CHỮ CHOOSE TATXI */
 
@@ -1038,7 +1097,7 @@ p {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  
+
 }
 
 .cart-item {
@@ -1076,7 +1135,7 @@ p {
 .btn {
   display: inline-block;
   padding: 8px 16px;
-   /* background-color: #d6b10b; */
+  /* background-color: #d6b10b; */
   color: rgb(240, 228, 228);
   text-decoration: none;
   border-radius: 4px;
@@ -1094,10 +1153,11 @@ p {
 .btn-primary {
   color: #101114;
   background-color: #f0e6e6;
- width: 40%;
- height: 50%;
+  width: 40%;
+  height: 50%;
 
 }
+
 /*  */
 /*  Get the Ridek Mobile app and Start Your Journey!*/
 /* tạo dòng chữ get the ridex mobile */
@@ -1131,10 +1191,12 @@ p {
   top: 47px;
   position: relative;
   background-repeat: no-repeat;
-} 
-.upper-alert-box{
+}
+
+.upper-alert-box {
   height: 70px;
 }
+
 .section-online-book {
   background-color: #f2f2f2;
   padding: 30px;
@@ -1149,12 +1211,12 @@ p {
   margin-right: 70px;
 }
 
- h2 {
+h2 {
   font-size: 28px;
   margin-bottom: 20px;
 
 
-  
+
 
   white-space: pre-line;
 
@@ -1173,7 +1235,7 @@ p {
   white-space: pre-line;
 
 
-} 
+}
 
 
 
@@ -1199,7 +1261,7 @@ p {
   justify-content: left;
   margin-top: 10px;
 
-  
+
 }
 
 .image-button {
@@ -1219,7 +1281,7 @@ p {
   position: absolute;
   width: 80px;
   float: right;
-left: 55%;
+  left: 55%;
   height: auto;
   margin-bottom: 10px;
 }
@@ -1263,8 +1325,8 @@ h2 {
 }
 
 .overlay-image {
-   position: relative;
- 
+  position: relative;
+
   left: 385px;
   top: 69px;
   /* Giá trị số âm để di chuyển hình ảnh lên trên */
@@ -1280,14 +1342,15 @@ h2 {
   border: 1px solid gray;
   position: relative;
   top: 30px
-  
 }
-.col-alert-box{
+
+.col-alert-box {
   background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
-   /* background-size: contain; */
-   width: 1000px;
-   height: 800px;
- }
+  /* background-size: contain; */
+  width: 1000px;
+  height: 800px;
+}
+
 .custom-heading {
   color: rgb(34, 34, 168);
   font-size: 24px;
@@ -1307,6 +1370,7 @@ h2 {
   padding: 10px;
   border: 1px solid gray;
 }
+
 /* logo ridek thanh  */
 .logo1 {
   width: 206px;
@@ -1336,7 +1400,7 @@ h1 {
 }
 
 /* ảnh bìa 1000 */
-.upper-alert-box{
+.upper-alert-box {
   background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
   background-size: contain;
   width: 500px;
@@ -1354,10 +1418,11 @@ h1 {
   border: 1px solid gray;
   display: flex;
   align-items: center;
-/* đường ghạch chéo màu cam */
-  background-image: repeating-linear-gradient(45deg,#f7a20f 0,#f7a20f 2px,transparent 0,transparent 50%);
+  /* đường ghạch chéo màu cam */
+  background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
   background-size: 10px 10px;
 }
+
 .right-column {
   flex: 1;
 }
@@ -1380,6 +1445,7 @@ h1 {
   width: 50px;
   height: 50px;
 }
+
 /*  */
 
 
@@ -1441,6 +1507,7 @@ h1 {
   margin-bottom: 20px;
 
 }
+
 /* code css kích cỡ chữ */
 .custom-image {
   width: 100px;
@@ -1452,6 +1519,7 @@ h1 {
   margin-top: 130px;
   /* Add any other styles you want */
 }
+
 /* clip path cắt ảnh */
 .section-online-thepeople {
   position: relative;
@@ -1470,6 +1538,7 @@ h1 {
   background-color: #f4f5f8;
   clip-path: polygon(100% 100%, 0 100%, 100% 0);
 }
+
 .section-online-thepeople::before {
   content: 0;
   position: absolute;
@@ -1477,22 +1546,25 @@ h1 {
   left: -400px;
   top: -200px;
 }
+
 .title {
   color: rgb(224, 212, 212);
   /* Thay đổi màu chữ thành màu đỏ */
 }
+
 /* màu chữ p call us  */
 .white-text {
   color: white;
   position: relative;
   transform: translateX(-33%);
 }
+
 .img-car {
-  width:  450px;
+  width: 450px;
   /* Đặt chiều rộng hình ảnh thành 200 pixel */
   height: auto;
   /* Đặt chiều cao tự động, giữ nguyên tỷ lệ khung hình */
-top: -20%;
+  top: -20%;
   transform: translateX(40%);
 }
 
@@ -1504,7 +1576,7 @@ top: -20%;
 
 .card-text {
   color: rgb(9, 9, 11);
-}  
+}
 
 
 /*  */
@@ -1533,8 +1605,9 @@ top: -20%;
 
 .logo {
   flex: 0 0 auto;
-  
+
 }
+
 /* Lớp che phủ */
 .overlay {
   background-color: rgba(0, 0, 0, 0.6);
@@ -1548,12 +1621,14 @@ top: -20%;
   color: #fff;
   text-align: center;
 }
+
 .logo-image {
   transform: translateX(-100%);
   float: left;
-  width: 200px; /* Kích cỡ logo */
+  width: 200px;
+  /* Kích cỡ logo */
   height: auto;
-   
+
 }
 
 .content {
@@ -1572,17 +1647,20 @@ top: -20%;
 }
 
 .subscribe input {
-  width: 200px; /* Kích cỡ ô đăng ký */
+  width: 200px;
+  /* Kích cỡ ô đăng ký */
 }
 
 .subscribe button {
   padding: 5px 10px;
 }
+
 /* dòng chữ trắng p */
 
 .description {
   color: white;
 }
+
 /* nút màu cam */
 button {
   background-color: rgb(212, 209, 21);
@@ -1592,6 +1670,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
 /* cắt path slide */
 nav {
   background-color: orange;
@@ -1629,6 +1708,7 @@ nav {
   color: white;
   text-decoration: none;
 }
+
 /* thanh nav footer hotline */
 .hotline {
   position: absolute;
@@ -1636,7 +1716,8 @@ nav {
   right: 7%;
   background-color: #ff9900;
   padding: 10px;
-  width: 700px; /* Đặt chiều rộng mong muốn */
+  width: 700px;
+  /* Đặt chiều rộng mong muốn */
   height: 110px;
   overflow: hidden;
   white-space: nowrap;
@@ -1644,8 +1725,8 @@ nav {
   transform: skewX(10deg);
   transform-origin: bottom right;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
-/* tạo thanh nav có đường viền */
-  background-image: repeating-linear-gradient(45deg,#f7a20f 0,#f7a20f 2px,transparent 0,transparent 50%);
+  /* tạo thanh nav có đường viền */
+  background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
   background-size: 10px 10px;
 }
 
@@ -1654,6 +1735,7 @@ nav {
   font-size: 20px;
 
 }
+
 /*  */
 .copyright-wrap {
   background-color: #1c1c1c;
@@ -1678,12 +1760,16 @@ nav {
   padding: 10px;
 }
 
-.contact-label, .opening-label, .links-label {
+.contact-label,
+.opening-label,
+.links-label {
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.contact-info, .opening-info, .links-info {
+.contact-info,
+.opening-info,
+.links-info {
   margin: 0;
 }
 
@@ -1704,6 +1790,7 @@ nav {
   border: none;
   cursor: pointer;
 }
+
 /* màu chữ footer địa chỉ, mở cửa */
 .sidebar {
   /* Your sidebar styles here */
@@ -1740,11 +1827,13 @@ nav {
 .links-info {
   margin: 0;
 }
+
 /* màu chữ 123web footer */
-.footer-text{
+.footer-text {
   color: white;
   text-align: center;
 }
+
 /* code css tạo chuyển động xe ô tô */
 .icon-car {
   display: flex;
@@ -1765,6 +1854,7 @@ nav {
   0% {
     transform: translateX(-100%);
   }
+
   100% {
     transform: translateX(100%);
   }
@@ -1779,6 +1869,7 @@ nav {
   0% {
     transform: translateX(100%);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -1792,6 +1883,7 @@ nav {
   0% {
     transform: translateX(100%);
   }
+
   100% {
     transform: translateX(-100%);
   }

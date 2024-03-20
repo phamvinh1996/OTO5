@@ -164,24 +164,16 @@
 
   /* code css pre- next */
 
-  .pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .prev,
-  .next {
-    padding: 10px 20px;
-    background-color: #ccc;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .current {
-    margin: 0 10px;
-  }
+
+ 
+/* tạo nút di chuyển ảnh */
+
+
+
+
+
+
+
 
 
   /* màu chữ trắng footer */
