@@ -104,71 +104,40 @@
 
 
   /*  code chỉnh ảnh di chuyển pre*/
-  
-  .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .cart {
-    position: relative;
-    width: 500px;
-    height: 400px;
-    margin-bottom: 20px;
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  }
-  
-  .description {
-    margin: 20px;
-    text-align: center;
-  }
-  
-  .cart-logo {
-    text-align: center;
-  }
-  
-  .btn-prev,
-  .btn-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 24px;
-    color: #ccc;
-    text-decoration: none;
-    padding: 5px 10px;
-    transition: color 0.3s ease;
-  }
-  
-  .btn-prev:hover,
-  .btn-next:hover {
-    color: #333;
-  }
-  
-  .btn-prev {
-    left: 10px;
-  }
-  
-  .btn-next {
-    right: 10px;
-  }
-
-
-
-  /* code css pre- next */
+   
 
 
  
-/* tạo nút di chuyển ảnh */
-
-
+  .content {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .cart {
+    width:  -60%;
+    flex-shrink: 0;
+    margin-right: -100px;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    white-space: nowrap;
+  }
+  
+  .prev,
+  .next {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
 
 
 

@@ -259,3 +259,25 @@ $(document).ready(function () {
 /* code cắt thanh nav trangchu, phần menu */
 
 
+const prevButton = document.querySelector('.prev');
+const nextButton = document.querySelector('.next');
+const content = document.querySelector('.content');
+const cartItems = document.querySelectorAll('.cart');
+const cartWidth = cartItems[0].offsetWidth;
+const containerWidth = content.offsetWidth;
+
+let currentIndex = 0;
+
+prevButton.addEventListener('click', () => {
+  if (currentIndex > 0) {
+    currentIndex--;
+    content.scrollLeft = currentIndex * cartWidth;
+  }
+});
+
+nextButton.addEventListener('click', () => {
+  if (currentIndex < cartItems.length - 1) {
+    currentIndex++;
+    content.scrollLeft = currentIndex * cartWidth;
+  }
+});
