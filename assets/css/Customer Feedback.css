@@ -1,7 +1,7 @@
 
 /* logo  */
 .logo-container {
-  width: 130px; /* Điều chỉnh chiều rộng của logo container */
+  width: 150px; /* Điều chỉnh chiều rộng của logo container */
   height: 50px; /* Điều chỉnh chiều cao của logo container */
 }
 
@@ -50,9 +50,9 @@
 
 
 
-
+/* code css tạo logo thanh nav */
   .logo {
-    width: 80px;
+    width: 143px;
     margin-right: 10px;
   }
 
