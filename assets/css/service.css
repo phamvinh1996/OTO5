@@ -95,11 +95,8 @@
     width: 100px;
     height: 50px;
     margin-top: 23px;
-    
     transform: translate(136%);
   }
-
-
   /*  */
 
   .button1 {
@@ -114,17 +111,12 @@
     cursor: pointer;
     border-radius: 5px;
   }
-
-
-
-
   /* dòng chữ */
   .col-sm-4 {
     width: 33.33%;
     float: center;
     padding: 15px;
     transform: translate(-20%);
-    
   }
   
   .section-map {
