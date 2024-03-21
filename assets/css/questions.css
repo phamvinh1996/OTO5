@@ -41,3 +41,13 @@
   }
 
 /*  bài viết mới */
+
+  /* code css bài viết mới   */
+  .img-right-col-new {
+    width: 90px;
+  }
+
+  .right-col-new {
+    display: flex;
+    flex-direction: row-reverse;
+  }
