@@ -179,9 +179,8 @@ div#offcanvasDarkNavbar {
   margin: 2px;
   width: 63%;
   height: 80%;
-
   position: absolute;
-  top: 1%;
+  top: 10%;
   left: 50%;
 }
 
@@ -189,7 +188,6 @@ div#offcanvasDarkNavbar {
 
 
 .collapse {
-
   display: none;
   width: 200px;
   /* Set the desired width */
