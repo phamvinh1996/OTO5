@@ -176,9 +176,13 @@ div#offcanvasDarkNavbar {
 .search-icon img,
 .menu-icon img {
   float: left;
-  margin: -2px;
+  margin: 2px;
   width: 63%;
-  height: 100%;
+  height: 80%;
+
+  position: absolute;
+  top: 1%;
+  left: 50%;
 }
 
 /* nút search  nut tim kiem*/
@@ -200,8 +204,8 @@ div#offcanvasDarkNavbar {
 /* nút css menu trangchu... */
 .navbar-toggler {
   float: right;
-  margin: -160px;
-  width: 300px;
+  margin: -100px;
+  width: 130px;
   /* Set the desired width */
   height: 40px;
   /* Set the desired height */
