@@ -139,13 +139,21 @@
   margin-left: 10px;
 }
 
-.search-icon,
+ .search-icon,
 .menu-icon {
   width: 95px;
   height: 50px;
   cursor: pointer;
   margin-left: 10px;
-}
+} 
+
+
+/* màu menu thanh NAV */
+
+
+
+
+
 
 /*  */
 /* code css tạo hiển thị menu trên thanh NAV trangchu........ */
@@ -192,7 +200,7 @@ div#offcanvasDarkNavbar {
 /* nút css menu trangchu... */
 .navbar-toggler {
   float: right;
-  margin: -23px;
+  margin: -160px;
   width: 300px;
   /* Set the desired width */
   height: 40px;
@@ -311,17 +319,7 @@ div#offcanvasDarkNavbar {
 
 
 
-/* .menu-icons {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-.search-icon {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
-}    */
+
 
 /* thanh css nut menu trangchu...*/
 
@@ -350,10 +348,11 @@ div#offcanvasDarkNavbar {
 .modal {
   position: absolute;
   top: 50%;
-  left: 70%;
+  left: 50%;
   /* Đặt modal vào giữa trang ngang */
   width: 50%;
   z-index: 9999;
+  
 
 }
 
