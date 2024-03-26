@@ -1753,7 +1753,6 @@ nav {
   padding: 5px;
   width: 300px;
   margin-right: 5px;
-
   clip-path: polygon(0 0, 75% 0, 100% 100%,  0  100%);
 }
 
@@ -1763,8 +1762,6 @@ nav {
   color: white;
   border: none;
   cursor: pointer;
-
-
 }
 
 /* màu chữ footer địa chỉ, mở cửa */
