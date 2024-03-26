@@ -1752,6 +1752,7 @@ nav {
 .subscribe input[type="email"] {
   padding: 5px;
   width: 300px;
+  height: 50px;
   margin-right: 5px;
   clip-path: polygon(0 0, 75% 0, 100% 100%,  0  100%);
 }
