@@ -1751,16 +1751,20 @@ nav {
 
 .subscribe input[type="email"] {
   padding: 5px;
-  width: 200px;
+  width: 300px;
   margin-right: 5px;
+
+  clip-path: polygon(0 0, 75% 0, 100% 100%,  0  100%);
 }
 
 .subscribe button {
   padding: 5px 10px;
-  background-color: #ca880e;
+   background-color: #ca880e; 
   color: white;
   border: none;
   cursor: pointer;
+
+
 }
 
 /* màu chữ footer địa chỉ, mở cửa */
@@ -1862,3 +1866,5 @@ nav {
 }
 
 /* cỡ chữ footer 123thietkeweb */
+
+
