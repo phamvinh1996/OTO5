@@ -1769,11 +1769,10 @@
     border: none;
     cursor: pointer;
     width: 130px;
-    height: 60px;
-    top: 70%;
+    height: 50px;
+    top: 67%;
     left: 5%;
     position: absolute; 
- 
     clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
   }
   
