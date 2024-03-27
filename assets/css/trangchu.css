@@ -580,7 +580,9 @@
   
   .button-carousel .carousel-control-prev-icon,
   .button-carousel .carousel-control-next-icon {
-    color: rgb(233, 226, 226);
+     color: rgb(233, 226, 226); 
+
+
     /* Đặt màu của biểu tượng là trắng */
   }
   
@@ -1758,12 +1760,21 @@
     clip-path: polygon(0 0, 95% 0, 100% 100%,  0  100%);
   }
   
+
+  /* nut dang ky footer */
   .subscribe button {
     padding: 5px 10px;
      background-color: #ca880e; 
     color: white;
     border: none;
     cursor: pointer;
+    width: 130px;
+    height: 60px;
+    top: 70%;
+    left: 5%;
+    position: absolute; 
+ 
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
   }
   
   /* màu chữ footer địa chỉ, mở cửa */
