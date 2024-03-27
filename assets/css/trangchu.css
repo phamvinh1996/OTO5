@@ -1671,9 +1671,35 @@
   .hotline-text {
     color: rgb(20, 15, 15);
     font-size: 20px;
+
+
   
   }
   
+
+
+
+  /* code css tạo ảnh anmwf bên trái chữ hotline footer */
+
+  .hotline {
+    overflow: auto; /* Cần thiết để đảm bảo phần tử cha bao quanh cả hình ảnh và văn bản */
+  }
+  
+  .hotline-image {
+    float: left;
+    width: 80px;
+    margin-right: 10px; /* Điều chỉnh khoảng cách giữa hình ảnh và văn bản */
+  
+
+  
+  position: absolute; 
+  top: 20%;
+  left: 65px;
+  }
+
+
+
+
   /*  */
   .copyright-wrap {
     background-color: #1c1c1c;
