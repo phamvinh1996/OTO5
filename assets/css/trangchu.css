@@ -1667,21 +1667,29 @@
     background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
     background-size: 10px 10px;
   }
-  
+  /* chữ css foter  */
   .hotline-text {
     color: rgb(20, 15, 15);
     font-size: 20px;
-
-
     position: absolute;
     top: 25%;
-    left: 25%;
-
+    left: 22%;
     font-size: 27px; /* Kích cỡ chữ */
 
   
   }
-  
+  /*  */
+
+  .hotline-image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 350%;
+    
+
+
+
+  }
 
 
 
