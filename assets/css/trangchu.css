@@ -923,27 +923,7 @@ p {
   }  */
 
 /*  */
-.prev-btn,
-.next-btn {
-  position: absolute;
-  top: 30%;
-  transform: translateY(-50%);
-  background-color: #555;
-  color: #fff;
-  padding: 8px 16px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  z-index: 1;
-}
 
-.prev-btn {
-  left: 300px;
-}
-
-.next-btn {
-  right: 930px;
-}
 
 /* kich co anh css cart picture */
 
@@ -1012,9 +992,46 @@ p {
 /* code css tạo đặt carousel cart ảnh dịch vụ */
 
 
+/* nút di chuyển trang */
 
+.triangle-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
 
+.triangle-button {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
 
+.arrow-left,
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-2600%);
+  background-color: orange;
+}
+
+.arrow-left {
+  border-right: 12px solid rgb(15, 10, 10);
+  left: 320px;
+ 
+}
+
+.arrow-right {
+  border-left: 12px solid rgb(31, 20, 20);
+  right: -1300px;
+}
 
 
 
