@@ -1639,6 +1639,44 @@ h1 {
   text-align: center;
 }
 
+
+
+/* code slide carousel */
+
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+
+  width: 500px; /* Điều chỉnh kích thước chiều rộng của bảng */
+  height: 300px; /* Điều chỉnh kích thước chiều cao của bảng */
+
+}
+
+.slide {
+  flex: 0 0 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 130px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+h3, p {
+  /* position :absolute;
+  left: 50%; */
+  color: #000;
+  margin: 0;
+}
 /* ảnh bìa 1000 */
 .upper-alert-box {
   background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
