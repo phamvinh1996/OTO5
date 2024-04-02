@@ -58,7 +58,7 @@
 
 /* logo ridek thanh */
 .logo {
-  width: 180px;
+  width: 80px;
 
   /* Adjust the width of the logo as per your needs */
 }
@@ -87,6 +87,11 @@
   font-size: 14px;
   color: black;
 }
+
+
+
+/*  */
+
 
 /* Tạo css thanh Nav ngang Trang chủ, ... */
 .navbar {
