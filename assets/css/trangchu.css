@@ -1198,8 +1198,26 @@ animation: imageEffect 0.5s ease-in-out;
 }
 }  
 
+/* hiệu ứng dịch vụ nổi bật */
 
 
+.triangle-buttons:hover {
+  animation: imageEffect 0.5s ease-in-out;
+}
+
+@keyframes imageEffect {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
 /*  */
 /* ĐẶT XE NHANH */
 .section-online-booking h3 {
