@@ -1648,9 +1648,6 @@ h1 {
   display: flex;
   overflow-x: auto;
 
-  width: 500px; /* Điều chỉnh kích thước chiều rộng của bảng */
-  height: 300px; /* Điều chỉnh kích thước chiều cao của bảng */
-
 }
 
 .slide {
