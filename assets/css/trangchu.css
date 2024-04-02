@@ -762,6 +762,7 @@ p {
 
 .image-animation {
   position: absolute;
+  top: 10px;
   left: 255px;
   animation-name: rotateImage;
   animation-duration: 4s;
@@ -791,7 +792,7 @@ p {
   content: "";
   position: absolute;
   top: 0%;
-  left: 0;
+  left: 190px;
   right: 20%;
   width: 50%;
   height: 130%;
@@ -870,7 +871,7 @@ p {
   width: 150%;
   border-radius: 8px;
 
-  
+
 
 }
 
@@ -880,7 +881,7 @@ p {
   text-align: left;
 
 
- 
+
 
 }
 
@@ -891,9 +892,9 @@ p {
   margin-left: 10px;
 
 
-  
 
-  
+
+
 }
 
 .button {
@@ -1042,7 +1043,7 @@ p {
 .arrow-left {
   border-right: 12px solid rgb(15, 10, 10);
   left: 320px;
- 
+
 }
 
 .arrow-right {
@@ -1153,8 +1154,7 @@ p {
 
 /* hiệu ứng 1 */
 
-  .vuongden1:hover 
-  {
+.vuongden1:hover {
   animation: imageEffect 0.5s ease-in-out;
 }
 
@@ -1170,50 +1170,48 @@ p {
   100% {
     transform: scale(1);
   }
-}  
+}
 
 /* hiệu ứng 2 */
 
 
-.vuongden2:hover 
-{
-animation: imageEffect 0.5s ease-in-out;
+.vuongden2:hover {
+  animation: imageEffect 0.5s ease-in-out;
 }
 
 @keyframes imageEffect {
-0% {
-  transform: scale(1);
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
-50% {
-  transform: scale(1.2);
-}
-
-100% {
-  transform: scale(1);
-}
-}  
 
 
-
-.vuongvang:hover 
-{
-animation: imageEffect 0.5s ease-in-out;
+.vuongvang:hover {
+  animation: imageEffect 0.5s ease-in-out;
 }
 
 @keyframes imageEffect {
-0% {
-  transform: scale(1);
-}
+  0% {
+    transform: scale(1);
+  }
 
-50% {
-  transform: scale(1.2);
-}
+  50% {
+    transform: scale(1.2);
+  }
 
-100% {
-  transform: scale(1);
+  100% {
+    transform: scale(1);
+  }
 }
-}  
 
 /* hiệu ứng dịch vụ nổi bật */
 .triangle-buttons:hover {
@@ -1233,6 +1231,7 @@ animation: imageEffect 0.5s ease-in-out;
     transform: scale(1);
   }
 }
+
 /*  */
 /* ĐẶT XE NHANH */
 .section-online-booking h3 {
@@ -1252,7 +1251,7 @@ animation: imageEffect 0.5s ease-in-out;
 
 /* đặt màu css button */
 .btn.btn-primary {
-  background-color: white;
+  background-color: #333333;
 }
 
 /* chữ màu chữ đen button */
@@ -1371,33 +1370,37 @@ animation: imageEffect 0.5s ease-in-out;
 
 
 /* code css cắt ảnh dịch vụ nỗi bât*/
-.card-image1{
+.card-image1 {
   clip-path: polygon(0 0, 100% 0, 100% 100%);
   width: 300px;
   height: 200%;
 }
+
 /* xe ô tô */
-.card-picture{
-width: 270px;
+.card-picture {
+  width: 270px;
   position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 
 }
+
 /* kích cỡ cart ảnh */
 
- .card{
+.card {
 
-  width: 350px; /* Đặt chiều rộng của card */
-  height: 530px; /* Đặt chiều cao của card */
+  width: 350px;
+  /* Đặt chiều rộng của card */
+  height: 530px;
+  /* Đặt chiều cao của card */
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
   margin: 10px;
- }
+}
 
 
 
@@ -1672,12 +1675,14 @@ h1 {
   margin-right: 10px;
 }
 
-h3, p {
+h3,
+p {
   /* position :absolute;
   left: 50%; */
   color: #000;
   margin: 0;
 }
+
 /* ảnh bìa 1000 */
 .upper-alert-box {
   background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
@@ -2200,3 +2205,51 @@ button {
 }
 
 /* cỡ chữ footer 123thietkeweb */
+
+.image-container {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+img.image-car1 {
+  width: 250px;
+}
+
+.image-car2-container {
+  display: flex;
+}
+
+img.image-car2 {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  position: relative;
+}
+
+.ceo {
+  border-radius: 100%;
+}
+
+.datxebutton {
+  right: 50px;
+  width: 353px;
+  top: 27px;
+  position: relative;
+}
+/* dat xe nhanh */
+.form-handle{
+background-color: #333333;
+display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
