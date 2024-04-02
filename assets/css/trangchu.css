@@ -1372,7 +1372,14 @@ width: 270px;
 
  .card{
 
- 
+  width: 350px; /* Đặt chiều rộng của card */
+  height: 530px; /* Đặt chiều cao của card */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
 
 
  }
