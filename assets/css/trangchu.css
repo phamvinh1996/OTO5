@@ -2153,7 +2153,7 @@ button {
   height: 100px;
   overflow: hidden;
   top: 157px;
-  position: absolute;
+  position: relative;
 }
 
 .icon-car .car1 {
