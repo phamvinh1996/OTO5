@@ -1380,8 +1380,6 @@ width: 270px;
   padding: 20px;
   text-align: center;
   margin: 10px;
-
-
  }
 
 
@@ -1807,6 +1805,20 @@ h1 {
 .card-text {
   color: rgb(9, 9, 11);
 }
+
+
+/*  */
+
+.card .btn-primary {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-70%);
+  width: 100px;
+  height: 50px;
+  top: 80%;
+}
+
 
 
 /*  */
