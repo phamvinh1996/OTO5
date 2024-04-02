@@ -927,7 +927,7 @@ p {
 
 /* kich co anh css cart picture */
 
-.card-image1 {
+.card-image {
   width: 100%;
   height: auto;
 
@@ -1199,8 +1199,6 @@ animation: imageEffect 0.5s ease-in-out;
 }  
 
 /* hiệu ứng dịch vụ nổi bật */
-
-
 .triangle-buttons:hover {
   animation: imageEffect 0.5s ease-in-out;
 }
@@ -1353,6 +1351,35 @@ animation: imageEffect 0.5s ease-in-out;
   height: 50%;
 
 }
+
+
+/* code css cắt ảnh dịch vụ nỗi bât*/
+.card-image1{
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  width: 300px;
+  height: 200%;
+}
+/* xe ô tô */
+.card-picture{
+width: 270px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+/* kích cỡ cart ảnh */
+
+ .card{
+
+ 
+
+
+ }
+
+
+
+
 
 /*  */
 /*  Get the Ridek Mobile app and Start Your Journey!*/
