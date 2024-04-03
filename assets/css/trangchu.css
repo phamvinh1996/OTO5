@@ -1865,7 +1865,7 @@ p {
 
 /* kích cỡ nút tin tức sự kiện */
 
-.card .btn-primary {
+.card .custom-button {
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -2205,6 +2205,11 @@ button {
 }
 
 /* cỡ chữ footer 123thietkeweb */
+
+
+
+
+
 
 .image-container {
   justify-content: space-between;
