@@ -444,6 +444,9 @@ div#offcanvasDarkNavbar {
   text-align: start;
 }
 
+
+/*  */
+
 /* button */
 .btn-view-more {
   float: left;
@@ -559,6 +562,7 @@ div#offcanvasDarkNavbar {
   left: 7%;
   text-align: center;
   width: 270px;
+  
 }
 
 .carousel-control-prev,
@@ -566,21 +570,49 @@ div#offcanvasDarkNavbar {
   position: absolute;
   bottom: 20px;
   /* Điều chỉnh khoảng cách từ nút đến phía dưới của trang */
-  left: 30px;
+  left: 130px;
   /* Điều chỉnh khoảng cách từ nút đến phía trái của trang */
-  background-color: black;
+   background-color: black; 
   /* Đặt màu nền của nút là trắng */
-  border: none;
+   border: none; 
   /* Xóa viền của nút */
   color: black;
   /* Đặt màu chữ là đen */
-  padding: 10px;
+  padding: 20px;
   /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
   position: fixed;
-  top: 30px;
-
+  top: 30%;
+  
 }
 
+.previous-word{
+  font-size: 10px;
+  color: red;
+  z-index: 1;
+  position: relative;
+  left: 17%;
+
+}
+.next-word{
+  font-size: 10px;
+  z-index: 1;
+  position: relative;
+  color: red;
+  right: 10%;
+}
+.page-number{
+  color:red;
+  font-size: 20px;
+  z-index: 1;
+  position: relative;
+  right: 7%;
+}
+button.carousel-control-prev{
+  width: 100px;
+}
+button.carousel-control-next {
+  width: 100px;
+}
 /*  code css màu nút button book*/
 .button-carousel button {
   background-color: black;
@@ -593,13 +625,6 @@ div#offcanvasDarkNavbar {
   /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
 }
 
-.button-carousel .carousel-control-prev-icon,
-.button-carousel .carousel-control-next-icon {
-  color: rgb(233, 226, 226);
-
-
-  /* Đặt màu của biểu tượng là trắng */
-}
 
 .button-carousel button:hover {
   background-color: darkgray;
@@ -620,13 +645,13 @@ div#offcanvasDarkNavbar {
   right: 0;
   width: 600px;
   height: 80px;
-  top: 55%;
+  top: 51%;
   right: 80%;
   left: -55%;
   background-color: #f4f5f8;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
-
-}
+  
+} 
 
 .search-bar {
   left: 0px;
@@ -638,6 +663,14 @@ div#offcanvasDarkNavbar {
   left: 550px;
   width: 60%;
 }
+
+
+/* code css số trang 1 2  */
+
+
+
+
+
 
 /* nut tim kiem */
 /* code css giới thiệu về chúng tôi */
