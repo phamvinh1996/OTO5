@@ -1247,7 +1247,7 @@ p {
 }
 
 /* hiệu ứng dịch vụ nổi bật */
-.triangle-buttons:hover {
+/* .triangle-buttons:hover {
   animation: imageEffect 0.5s ease-in-out;
 }
 
@@ -1263,7 +1263,90 @@ p {
   100% {
     transform: scale(1);
   }
+} */
+
+
+
+
+
+/* .triangle-buttons:hover,
+.card-image2:hover
+{
+  animation: buttonEffect 0.5s ease-in-out;
 }
+
+@keyframes imageEffect {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes buttonEffect {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+} */
+
+/*  */
+/* .container:hover .card-image2,
+.container:hover .triangle-buttons {
+  animation: effectAnimation 0.5s ease-in-out;
+}
+
+@keyframes effectAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+} */
+/*  */
+
+.container:hover .vuongvang,
+.container:hover .vuongden1,
+.container:hover  .vuongden2,
+.container:hover .card-image2,
+.container:hover .triangle-buttons {
+  animation: effectAnimation 0.5s ease-in-out;
+}
+
+@keyframes effectAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
 
 /*  */
 /* ĐẶT XE NHANH */
