@@ -1322,13 +1322,16 @@ p {
     transform: scale(1);
   }
 } */
-/* code hiệu ứng dịch vụ nỗi bật */
 
-.container:hover .vuongvang,
+
+/* code hiệu ứng dịch vụ nỗi bật */
+ 
+ .container:hover .vuongvang,
 .container:hover .vuongden1,
-.container:hover  .vuongden2,
+.container:hover  .vuongden2,  
 .container:hover .card-image2,
-.container:hover .triangle-buttons {
+.container:hover ~ .triangle-buttons
+{
   animation: effectAnimation 0.5s ease-in-out;
 }
 
@@ -1344,8 +1347,39 @@ p {
   100% {
     transform: scale(1);
   }
+} 
+
+
+
+
+
+
+/* 
+.triangle-buttons:hover,
+.card-image2,
+.triangle-buttons,
+.vuongden1 :hover,
+.vuongden2:hover,
+.vuongvang:hover
+
+
+{
+  animation: imageEffect 0.5s ease-in-out;
 }
 
+@keyframes imageEffect {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+} */
 
 
 /*  */
