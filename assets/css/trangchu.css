@@ -1735,11 +1735,18 @@ h2 {
 .section-online-Hon1000 {}
 
 .alert-box {
-  background-color: white;
+   background-color: white;
   padding: 20px;
   border: 1px solid gray;
   position: relative;
-  top: 30px
+  top:  -17%;
+
+
+
+
+  
+
+
 }
 
 .col-alert-box {
@@ -1756,6 +1763,7 @@ h2 {
 
 .alert-box p {
   color: rgb(24, 20, 20);
+
 }
 
 .company-table {
@@ -1811,6 +1819,8 @@ h1 {
   flex: 0 0 100%;
   padding: 20px;
   box-sizing: border-box;
+
+
 }
 
 .content {
