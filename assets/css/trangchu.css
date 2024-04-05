@@ -1469,6 +1469,57 @@ p {
 
 }
 
+
+/* biểu tượng đặt xe nhanh */
+.input-group-append-1{
+
+position: absolute;
+left: 80%;
+top: 50%;
+}
+
+.input-group-append-2{
+  position: absolute;
+  left: 80%;
+  top: 50%;
+}
+
+.input-group-append-3{
+  position: absolute;
+  left: 80%;
+  top: 13%;
+}
+
+.input-group-append-4{
+  position: absolute;
+  left: 87%;
+  top: 53%;
+
+}
+
+.input-group-append-5{
+
+
+  position: absolute;
+  left: 77%;
+  top: 53%;
+}
+
+.input-group-append-6{
+
+  position: absolute;
+  left: 77%;
+  top: 53%;
+}
+
+
+.input-group-append-7{
+  position: absolute;
+  left: 77%;
+  top: 53%;
+
+
+}
 /* màu button */
 /* TẠO DÒNG CHỮ CHOOSE TATXI */
 
