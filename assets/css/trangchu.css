@@ -447,9 +447,9 @@ div#offcanvasDarkNavbar {
   position: absolute;
   top: 50%;
   left: 61%;
-  transform: translate( -50%, -50%) rotate(30deg) skewY( -20deg);
+  transform: translate( -50%, -50%) rotate(30deg) skewY( -28deg);
   width: 100px;
-  height: 750px;
+  height: 850px;
   background-color: rgb(17, 16, 14);
   z-index: 1;
 }
@@ -463,7 +463,7 @@ div#offcanvasDarkNavbar {
    position: absolute;
   top: -5%;
   left: 143%;
-  transform: translate(  -50%, -50%) rotate(29deg) skewY( -20deg);
+  transform: translate(  -50%, -50%) rotate(29deg) skewY( -27deg);
   width: 100px;
   height: 650px;
   background-color: rgb(8, 7, 5);
