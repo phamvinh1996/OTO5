@@ -411,6 +411,7 @@ div#offcanvasDarkNavbar {
   position: relative;
   bottom: 220px;
   width: 500px;
+
 }
 
 /* code css tạo đường chéo book your */
@@ -419,7 +420,7 @@ div#offcanvasDarkNavbar {
   position: absolute;
   top: -50%;
   bottom: 0%;
-  left: 90%;
+  left: 99%;
   width: 200px;
   height: 220%;
   transform: skew(-30deg);
@@ -428,12 +429,48 @@ div#offcanvasDarkNavbar {
 
 }
 
-.section-onlinecar .img-car {
+ .section-onlinecar .img-car {
   position: absolute;
   width: 350px;
   right: -250px;
   top: -100px;
+  
+} 
+/* code css tạo hình chữ nhật đứng màu đen */
+
+
+
+
+
+
+.chunhat1 {
+  position: absolute;
+  top: 50%;
+  left: 61%;
+  transform: translate( -50%, -50%) rotate(30deg) skewY( -20deg);
+  width: 100px;
+  height: 750px;
+  background-color: rgb(17, 16, 14);
+  z-index: 1;
 }
+
+
+.container {
+  position: relative;
+}
+
+.chunhatden {
+   position: absolute;
+  top: -5%;
+  left: 143%;
+  transform: translate(  -50%, -50%) rotate(29deg) skewY( -20deg);
+  width: 100px;
+  height: 650px;
+  background-color: rgb(8, 7, 5);
+}
+
+
+
 
 /* code css màu chữ book you p */
 .carousel-caption p {
