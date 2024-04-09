@@ -17,8 +17,16 @@
 }
 
 .navbar-text {
+  /* font-size: 18px;
+  font-weight: bold; */
+
+  
+  position: relative;
+  left: -500px; /* Điều chỉnh khoảng cách từ trái sang */
   font-size: 18px;
   font-weight: bold;
+
+
 }
 
 .navbar-link {
@@ -50,6 +58,8 @@
 .container {
   display: flex;
   align-items: center;
+
+
 }
 
 .logo-container {
@@ -75,16 +85,16 @@
 }
 
 .icon {
-  width: 50px;
+  width: 60px;
   /* Adjust the width of the icons as per your needs */
-  height: 50px;
+  height: 80px;
   /* Adjust the height of the icons as per your needs */
   margin-right: 20px;
   /* Adjust the spacing between icons as per your needs */
 }
 
 .text {
-  font-size: 14px;
+  font-size: 11px;
   color: black;
 }
 
@@ -94,7 +104,7 @@
 
 
 /* Tạo css thanh Nav ngang Trang chủ, ... */
-.navbar {
+.navbar-yellow {
   left: -16%;
   display: flex;
   justify-content: space-between;
@@ -103,6 +113,11 @@
   padding: 10px;
   width: 60%;
 
+
+
+position: relative;
+top: 37px;
+  
 }
 
 .navbar::before {
@@ -110,7 +125,7 @@
   /* Tạo một pseudo-element */
   position: absolute;
   /* Vị trí tuyệt đối */
-  top: 0;
+  
   left: -2%;
   /* Điều chỉnh theo left của navbar */
   width: 30%;
@@ -255,10 +270,9 @@ div#offcanvasDarkNavbar {
 .navbar {
   transform: skewX(0deg);
   /* Độ nghiêng -20 độ */
-  position: absolute;
+  /* position: absolute; */
   width: 90%;
   height: 30%;
-  top: 0;
   z-index: 999;
 }
 
@@ -363,15 +377,21 @@ div#offcanvasDarkNavbar {
 
 
 .modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  /* position: absolute; */
+  /* top: 50%; */
+  left: 10%;
   /* Đặt modal vào giữa trang ngang */
-  width: 50%;
+  width: 80%;
+  height: 330%;
   z-index: 9999;
 
 
 }
+
+
+
+
+
 
 /* dùng thư viện di chuyển trang book you */
 .carousel {
@@ -389,18 +409,18 @@ div#offcanvasDarkNavbar {
   height: 100%;
 }
 
-.carousel-caption {
+ .carousel-caption {
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   position: absolute;
-  top: 50%;
-  left: 0%;
-  transform: translateY(-60%);
+  top: 0%;
+  transform: translateY( -70%);
   width: 60%;
   padding-left: 15px;
-}
+} 
 
 .carousel-caption h1 {
+
   margin-bottom: 20px;
   color: #faf1f1;
   text-align: start;
@@ -442,7 +462,7 @@ div#offcanvasDarkNavbar {
 .chunhat1 {
   position: absolute;
   top: 50%;
-  left: 61%;
+  left: 63%;
   transform: translate( -50%, -50%) rotate(30deg) skewY( -28deg);
   width: 100px;
   height: 850px;
@@ -466,14 +486,6 @@ div#offcanvasDarkNavbar {
 }
 
 /* code css màu chữ book you p */
-.carousel-caption p {
-  color: white;
-  /* Màu chữ trắng */
-  font-size: 18px;
-  /* Kích thước chữ 18px */
-  text-align: start;
-}
-
 
 /*  */
 
@@ -492,7 +504,7 @@ div#offcanvasDarkNavbar {
   border-radius: 5px;
   font-size: 16px;
   position: relative;
-  margin-top: 66px;
+  margin-top: 6px;
 }
 
 .btn-view-more:hover {
@@ -500,10 +512,10 @@ div#offcanvasDarkNavbar {
   /* Màu cam tối khi hover */
 }
 
-/* code css chuyển động qua trang book */
+ /* code css chuyển động qua trang book */
 .carousel-caption {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 100%;
   width: 50%;
   height: 50%;
@@ -518,6 +530,8 @@ div#offcanvasDarkNavbar {
   opacity: 1;
 
 }
+
+
 
 .carousel-caption h1 {
 
@@ -535,8 +549,8 @@ div#offcanvasDarkNavbar {
   animation: slide-up 0.5s ease 0.3s forwards;
   text-align: text;
   position: relative;
-  left: 8%;
-
+  left: 31%;
+  color: white;
 }
 
 .carousel-caption .btn-view-more {
@@ -579,7 +593,7 @@ div#offcanvasDarkNavbar {
     transform: translate(-50%, -50%);
     opacity: 1;
   }
-}
+} 
 
 /* code css chỉnh nút button book */
 
@@ -1517,7 +1531,7 @@ top: 50%;
 
 .input-group-append-7{
   position: absolute;
-  left: 77%;
+  left: 70%;
   top: 53%;
 
 
