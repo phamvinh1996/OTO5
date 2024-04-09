@@ -516,7 +516,7 @@ div#offcanvasDarkNavbar {
 .carousel-caption {
   position: absolute;
   top: 60%;
-  left: 100%;
+  /* left: 100%; */
   width: 50%;
   height: 50%;
   /* transform: translate(40%, 40%);  */
