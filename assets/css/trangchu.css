@@ -269,8 +269,6 @@ div#offcanvasDarkNavbar {
 /* nut css  chinh kich co  thanh nav menu trang chu... */
 .navbar {
   transform: skewX(0deg);
-  /* Độ nghiêng -20 độ */
-  /* position: absolute; */
   width: 90%;
   height: 30%;
   z-index: 999;
@@ -300,12 +298,6 @@ div#offcanvasDarkNavbar {
 
 }
 
-/*  */
-
-
-
-
-
 
 /*  */
 .navbar-text p {
@@ -322,18 +314,12 @@ div#offcanvasDarkNavbar {
   text-overflow: ellipsis;
   /* Hiển thị dấu chấm 3 chấm (...) khi chữ bị cắt ngang */
 
-
-
-
 }
 
 .contact-info {
   margin-top: 10px;
   color: #f4f5f8;
   font-size: 20px;
-
-
-
 }
 
 .content {
@@ -341,16 +327,7 @@ div#offcanvasDarkNavbar {
   /* Đảm bảo nội dung không bị che phủ bởi thanh navbar */
 
 }
-
-
 /* code css độ dài thanh  nav tìm kiếm trangchu... */
-
-
-
-
-
-
-
 
 /* thanh css nut menu trangchu...*/
 
@@ -363,8 +340,6 @@ div#offcanvasDarkNavbar {
   height: 53px;
   width: 53px;
 }
-
-
 .nav.navbar.navbar-dark.bg-dark {
   width: 50px;
 }
@@ -387,11 +362,6 @@ div#offcanvasDarkNavbar {
 
 
 }
-
-
-
-
-
 
 /* dùng thư viện di chuyển trang book you */
 .carousel {
@@ -948,18 +918,12 @@ p {
   width: 150%;
   border-radius: 8px;
 
-
-
 }
 
 .card h2 {
   font-size: 22px;
   margin-left: 10px;
   text-align: left;
-
-
-
-
 }
 
 .card p {
@@ -967,11 +931,6 @@ p {
   font-size: 16px;
   line-height: 26px;
   margin-left: 10px;
-
-
-
-
-
 }
 
 .button {
@@ -998,26 +957,7 @@ p {
 
 }
 
-/* .prev-btn,
-  .next-btn {
-    position: absolute;
-    top: 80%;
-    transform: translateY(-90%);
-    padding: 8px 16px;
-    background-color: #555;
-    color: #fff;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .prev-btn:hover,
-  .next-btn:hover {
-    background-color: #333;
-  }  */
 
-/*  */
 
 
 /* kich co anh css cart picture */
@@ -1131,66 +1071,10 @@ p {
 
 
 
-/* .diagonal-line::before {
-    content: "";
-    position: absolute;
-    top: 10%;
-    left: 30%;
-    width: 50%;
-    height: 70px;
-    background-color: rgb(218, 162, 9);
-    transform: rotate(-89deg);
-  }
-  
-   .new-class::before{
-    content: "";
-    position: absolute;
-    top: 10%;
-    left: 29%;
-    width: 30%;
-    height: 70px;
-    background-color: rgb(15, 13, 7);
-    transform: rotate(-89deg);
-
-
-  }   */
-
 .container {
   position: relative;
 }
 
-/* .card-top::before {
-    content: "";
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
-    width: 90px;
-    height: 150px;
-    background-color: rgb(223, 177, 41);
-  }
-  
-  .card-top::after {
-    content: "";
-    position: absolute;
-    top: 37%;
-    left: 30%;
-    transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
-    width: 80px;
-    height: 160px;
-    background-color: rgb(22, 20, 14);
-  } */
-
-/* .card-top{
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
-  width: 70px;
-  height: 140px;
-  background-color: rgb(22, 20, 14);
-} */
 .vuongvang {
   position: absolute;
   top: 70%;
@@ -1291,81 +1175,12 @@ p {
 }
 
 /* hiệu ứng dịch vụ nổi bật */
-/* .triangle-buttons:hover {
-  animation: imageEffect 0.5s ease-in-out;
-}
-
-@keyframes imageEffect {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.2);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-} */
 
 
 
 
 
-/* .triangle-buttons:hover,
-.card-image2:hover
-{
-  animation: buttonEffect 0.5s ease-in-out;
-}
 
-@keyframes imageEffect {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.2);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes buttonEffect {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.2);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-} */
-
-/*  */
-/* .container:hover .card-image2,
-.container:hover .triangle-buttons {
-  animation: effectAnimation 0.5s ease-in-out;
-}
-
-@keyframes effectAnimation {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.2);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-} */
 
 
 /* code hiệu ứng dịch vụ nỗi bật */
@@ -1397,33 +1212,6 @@ p {
 
 
 
-
-/* 
-.triangle-buttons:hover,
-.card-image2,
-.triangle-buttons,
-.vuongden1 :hover,
-.vuongden2:hover,
-.vuongvang:hover
-
-
-{
-  animation: imageEffect 0.5s ease-in-out;
-}
-
-@keyframes imageEffect {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.2);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-} */
 
 
 /*  */
@@ -1485,57 +1273,71 @@ p {
 
 
 /* biểu tượng đặt xe nhanh */
-/* .input-group-append-1{
+
+ .input-group-text-1{
 
 position: absolute;
-left: 80%;
-top: 50%;
+left: 78%;
+top: 51%;
 }
-
-.input-group-append-2{
-  position: absolute;
-  left: 80%;
-  top: 50%;
-}
-
-.input-group-append-3{
-  position: absolute;
-  left: 80%;
-  top: 13%;
-}
-
-.input-group-append-4{
-  position: absolute;
-  left: 87%;
-  top: 53%;
-
-}
-
-.input-group-append-5{
-
+.input-group-text-2{
 
   position: absolute;
-  left: 77%;
-  top: 53%;
-
-  
+  left: 78%;
+  top: 51%;
 }
-
-.input-group-append-6{
+.input-group-text-3{
 
   position: absolute;
-  left: 77%;
-  top: 53%;
+  left: 78%;
+  top: 51%;
 }
- */
+.input-group-text-4{
 
-/* .input-group-append-7{
   position: absolute;
-  left: 70%;
-  top: 53%;
+  left: 73%;
+  top: 51%;
+}
+.input-group-online-5{
+
+  position: absolute;
+  left: 60%;
+  top: 51%;
+
+}
+
+.input-group-text-6{
+
+  position: absolute;
+  left: 68%;
+  top: 51%;
+}
+.input-group-text-7{
+
+  position: absolute;
+  left: 78%;
+  top: 21%;
 
 
-} */
+}
+
+
+.input-group-text-8{
+
+  position: absolute;
+  left: 78%;
+  top: 51%;
+
+
+}
+
+
+
+
+
+
+
+
 
 
 
