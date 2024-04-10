@@ -1296,6 +1296,20 @@ top: 51%;
 
 }
 
+
+
+
+/* code css tạo đặt xe nhanh */
+.hinh1-col
+{
+
+
+  position: absolute;
+  left: 31%;
+  top: 71%;
+  width: 20%;
+
+}
 /* tạo kích cỡ lịch */
 
 
@@ -2234,10 +2248,10 @@ img.image-car2 {
 }
 
 .datxebutton {
-  right: 50px;
+  left: 90px;
   width: 353px;
-  top: 27px;
-  position: relative;
+  top: 37%;
+  position: absolute;
 }
 /* dat xe nhanh */
 .form-handle{
@@ -2255,6 +2269,20 @@ display: block;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+/* code css kích cỡ đặt xe nhanh ketthuc */
+.label-11{
+
+  position: relative;
+  left: -15%;
+  width: 20%;
+
+}
+
+.batdau-1{
+
+  position: relative;
+  left: -10%;
+  width: 20%;
 
 
-
+}
