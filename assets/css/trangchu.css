@@ -181,10 +181,6 @@ top: 37px;
 /* màu menu thanh NAV */
 
 
-
-
-
-
 /*  */
 /* code css tạo hiển thị menu trên thanh NAV trangchu........ */
 div#offcanvasDarkNavbar {
@@ -292,9 +288,6 @@ div#offcanvasDarkNavbar {
   width: 300px;
   height: auto;
   margin-right: 10px;
-
-
-
 
 }
 
@@ -681,11 +674,6 @@ button.carousel-control-next {
 
 /* code css số trang 1 2  */
 
-
-
-
-
-
 /* nut tim kiem */
 /* code css giới thiệu về chúng tôi */
 /*  Code chi cột về chúng tôi*/
@@ -851,10 +839,6 @@ p {
 
 /* Dịch vụ nỗi bật css */
 
-
-
-
-
 /* CODE DỊCH VỤ NỖI BẬT */
 .overlay-image {
   animation-play-state: paused;
@@ -956,9 +940,6 @@ p {
   transform: translateX(-70%);
 
 }
-
-
-
 
 /* kich co anh css cart picture */
 
@@ -1068,9 +1049,6 @@ p {
   right: -1300px;
 }
 
-
-
-
 .container {
   position: relative;
 }
@@ -1176,13 +1154,6 @@ p {
 
 /* hiệu ứng dịch vụ nổi bật */
 
-
-
-
-
-
-
-
 /* code hiệu ứng dịch vụ nỗi bật */
  
  .container:hover .vuongvang,
@@ -1207,12 +1178,6 @@ p {
     transform: scale(1);
   }
 } 
-
-
-
-
-
-
 
 /*  */
 /* ĐẶT XE NHANH */
@@ -1330,17 +1295,6 @@ top: 51%;
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* tạo kích cỡ lịch */
 
@@ -1519,10 +1473,6 @@ top: 51%;
 h2 {
   font-size: 28px;
   margin-bottom: 20px;
-
-
-
-
   white-space: pre-line;
 
 
@@ -1541,9 +1491,6 @@ p {
 
 
 }
-
-
-
 .image-row {
   display: flex;
   justify-content: space-between;
@@ -1939,12 +1886,6 @@ p {
 
 /*  */
 
-
-
-
-
-
-
 /* footer */
 .background-image {
   background-color: #1c1c1c;
@@ -2072,10 +2013,6 @@ button {
   top: 50%;
   left: 50%;
   font-size: 350%;
-
-
-
-
 }
 
 
@@ -2318,3 +2255,6 @@ display: block;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+
+
+
