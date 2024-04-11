@@ -294,3 +294,31 @@ nextButton.addEventListener('click', () => {
 
 /* hon 10000 */
 
+const carouselItems = document.querySelectorAll('.carousel-content');
+let currentItem = 0;
+
+function showItem(index) {
+  carouselItems.forEach((item, i) => {
+    if (i === index) {
+      item.style.display = 'flex';
+    } else {
+      item.style.display = 'none';
+    }
+  });
+}
+
+function nextItem() {
+  currentItem = (currentItem + 1) % carouselItems.length;
+  showItem(currentItem);
+}
+
+function prevItem() {
+  currentItem = (currentItem - 1 + carouselItems.length) % carouselItems.length;
+  showItem(currentItem);
+}
+
+document.querySelector('.carousel').addEventListener('click', nextItem);
+document.querySelector('.carousel').addEventListener('contextmenu', (e) => {
+  e.preventDefault();
+  prevItem();
+});

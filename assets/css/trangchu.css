@@ -1594,11 +1594,12 @@ h2 {
 .section-online-Hon1000 {}
 
 .alert-box {
+  left: -30%;
    background-color: white;
-  padding: 120px;
+  padding: -90px;
   border: 1px solid gray;
-  position: relative;
-  top:  7%;
+  position: absolute;
+  top: 13%;
 }
 
 .col-alert-box {
@@ -2280,7 +2281,7 @@ display: block;
 /* code css hơn 1000 */
 
 
-
+/* 
 
 .carousel-container {
   position: absolute;
@@ -2297,7 +2298,11 @@ left: 10%;
 
 
 
-}
+} 
+
+
+
+
 
 .container {
   flex: 0 0 100%;
@@ -2347,7 +2352,85 @@ left: 10%;
 
 .next-button {
   border-radius: 0 5px 5px 0;
-} 
+}  */
 
 /* chữ thẻ p doc-1 hon 1000 */
 
+
+
+
+
+
+/* Rest of the CSS styles */
+
+.container {
+  margin-top: -20px;
+}
+
+.carousel-image {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
+  
+  position: relative;
+  left: 50%;
+}
+
+.carousel-content {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-info {
+  margin-left: 150px;
+}
+
+.carousel-info p {
+  margin: 0;
+  font-size: 16px; /* Kích thước chữ là 16px */
+  color: #000;
+  
+}
+
+.name{
+  font-size: 16px; /* Kích thước chữ là 16px */
+color: #000;
+
+}
+
+
+
+
+
+
+
+
+
+  /* Thiết lập kiểu chữ cho các phần tử */
+  .name {
+    font-size: 28px;
+    font-weight: bold;
+
+    position: relative;
+    left: 80%;
+  
+  }
+  
+  .company {
+    color: blue;
+    font-style: italic;
+font-size: 20px;
+
+    position: relative;
+    left: 80%;
+  }
+  
+  /* Thiết lập kiểu hiển thị cho hình ảnh */
+  .carousel-image {
+    width: 250px;
+    height: 150px;
+
+
+  }
