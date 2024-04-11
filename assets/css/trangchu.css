@@ -104,7 +104,7 @@
 
 
 /* Tạo css thanh Nav ngang Trang chủ, ... */
-.navbar-yellow {
+.navbar-yellow-on {
   left: -16%;
   display: flex;
   justify-content: space-between;
@@ -145,6 +145,7 @@ top: 37px;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .menu {
@@ -248,7 +249,7 @@ div#offcanvasDarkNavbar {
 
 .contact-nav {
   position: absolute;
-  top: -13%;
+  top: 19%;
   /* Adjust the distance from the top as needed */
   left: 95%;
   display: flex;
@@ -259,7 +260,7 @@ div#offcanvasDarkNavbar {
   transform: skewX(0deg);
   width: 15%;
   /* Adjust the width as needed */
-  height: 91px;
+  height: 51px;
 }
 
 /* nut css  chinh kich co  thanh nav menu trang chu... */
@@ -268,6 +269,8 @@ div#offcanvasDarkNavbar {
   width: 90%;
   height: 30%;
   z-index: 999;
+
+  
 }
 
 .navbar-brand img {
