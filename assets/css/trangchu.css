@@ -207,7 +207,7 @@ div#offcanvasDarkNavbar {
   width: 63%;
   height: 70%;
   position: absolute;
-  top: 10%;
+  top: 28%;
   left: 50%;
 }
 
@@ -229,11 +229,14 @@ div#offcanvasDarkNavbar {
 /* nút css menu trangchu... */
 .navbar-toggler {
   float: right;
-  margin: -100px;
+  margin: -127px;
   width: 130px;
   /* Set the desired width */
   height: 40px;
   /* Set the desired height */
+
+
+
 }
 
 
