@@ -104,7 +104,7 @@
 
 
 /* Tạo css thanh Nav ngang Trang chủ, ... */
-.navbar-yellow-on {
+.navbar-yellow {
   left: -16%;
   display: flex;
   justify-content: space-between;
