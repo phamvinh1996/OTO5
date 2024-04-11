@@ -380,7 +380,7 @@ div#offcanvasDarkNavbar {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0%;
-  transform: translateY( -79%);
+  transform: translateY( -68%);
   width: 70%;
   padding-left: 15px;
 } 
