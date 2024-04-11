@@ -1595,10 +1595,10 @@ h2 {
 
 .alert-box {
    background-color: white;
-  padding: 20px;
+  padding: 120px;
   border: 1px solid gray;
   position: relative;
-  top:  -17%;
+  top:  7%;
 }
 
 .col-alert-box {
@@ -2277,3 +2277,77 @@ display: block;
 
 
 }
+/* code css hơn 1000 */
+
+
+
+
+.carousel-container {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+
+left: 10%;
+  top: 30%;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+
+
+
+}
+
+.container {
+  flex: 0 0 100%;
+  padding: 10px;
+
+}
+
+.details {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  flex: 0 0 30%;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.carousel-buttons {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carousel-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.prev-button {
+  border-radius: 5px 0 0 5px;
+}
+
+.next-button {
+  border-radius: 0 5px 5px 0;
+} 
+
+/* chữ thẻ p doc-1 hon 1000 */
+

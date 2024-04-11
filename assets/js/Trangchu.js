@@ -281,3 +281,15 @@ nextButton.addEventListener('click', () => {
     content.scrollLeft = currentIndex * cartWidth;
   }
 });
+
+
+
+
+
+
+
+
+
+
+
+/* hon 10000 */
