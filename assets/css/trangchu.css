@@ -20,11 +20,11 @@
     /* font-size: 18px;
   font-weight: bold;   */
   position: relative;
-  /* left: -500px; Điều chỉnh khoảng cách từ trái sang */
   font-size: 15px;
   font-weight: bold;
 left: 280px;
   color: #575555;
+
 }
 
 .navbar-link {
