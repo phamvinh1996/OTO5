@@ -16,16 +16,28 @@
   gap: 10px;
 }
 
-.navbar-text {
+.navbar-on1 {
     /* font-size: 18px;
   font-weight: bold;   */
   position: relative;
+  left: 57px;
   font-size: 15px;
   font-weight: bold;
-left: 280px;
-  color: #575555;
-
+/* left: 280px; */
+  /* color: #575555; */
+  
 }
+
+/* code css chữ taxi giá liên tỉnh */
+.navbar-text{
+
+  color: #555657;
+  position: relative;
+  left: 250px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 
 .navbar-link {
   text-decoration: none;
