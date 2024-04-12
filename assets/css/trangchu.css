@@ -709,11 +709,14 @@ button.carousel-control-next {
 h1,
 p {
   flex-basis: 100%;
+  color: #000;
 }
 
 /* CSS */
 .my-heading {
   color: rgb(222, 222, 226);
+
+  
 }
 
 .container {
@@ -759,6 +762,16 @@ p {
 }
 
 /*  */
+
+.about-us{
+position: relative;
+left: -37%;
+  color: black;
+  font-size: 27px;
+  font-weight: bold;
+
+
+}
 h1,
 p {
   flex-basis: 100%;
