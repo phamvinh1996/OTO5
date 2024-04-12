@@ -295,6 +295,10 @@ div#offcanvasDarkNavbar {
   height: auto;
   margin-right: 10px;
 
+
+  right: -61%;
+  position: absolute;
+
 }
 
 
@@ -312,6 +316,13 @@ div#offcanvasDarkNavbar {
   /* Ẩn nội dung dư thừa */
   text-overflow: ellipsis;
   /* Hiển thị dấu chấm 3 chấm (...) khi chữ bị cắt ngang */
+
+
+
+  position: relative;
+
+  right: -100%;
+  top: 60%;
 
 }
 
