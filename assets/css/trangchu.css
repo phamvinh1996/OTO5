@@ -126,11 +126,11 @@ top: 37px;
   position: absolute;
   /* Vị trí tuyệt đối */
   
-  left: -2%;
+  left: -3%;
   /* Điều chỉnh theo left của navbar */
-  width: 50%;
+  width: 97%;
   /* Chiều rộng 100% */
-  height: 100%;
+  height: 148%;
   /* Chiều cao 100% */
   background-color: inherit;
   /* Màu nền giống với navbar */
@@ -208,7 +208,7 @@ div#offcanvasDarkNavbar {
   height: 70%;
   position: absolute;
   top: 19%;
-  left: 51%;
+  left: 47%;
 }
 
 /* nút search  nut tim kiem*/
@@ -252,7 +252,7 @@ div#offcanvasDarkNavbar {
 
 .contact-nav {
   position: absolute;
-  top: 19%;
+  top: 1%;
   /* Adjust the distance from the top as needed */
   left: 95%;
   display: flex;
@@ -263,7 +263,7 @@ div#offcanvasDarkNavbar {
   transform: skewX(0deg);
   width: 15%;
   /* Adjust the width as needed */
-  height: 51px;
+  height: 73px;
 }
 
 /* nut css  chinh kich co  thanh nav menu trang chu... */
