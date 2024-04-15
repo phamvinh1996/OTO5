@@ -129,7 +129,7 @@ position: relative;
 top: 37px;
   
 }
-
+/* kich co thanh nav trang chu... */
 .navbar::before {
   content: '';
   /* Tạo một pseudo-element */
@@ -140,7 +140,7 @@ top: 37px;
   /* Điều chỉnh theo left của navbar */
   width: 100%;
   /* Chiều rộng 100% */
-  height: 143%;
+  height: 110%;
   /* Chiều cao 100% */
   background-color: inherit;
   /* Màu nền giống với navbar */
@@ -262,7 +262,7 @@ div#offcanvasDarkNavbar {
 
 .contact-nav {
   position: absolute;
-  top: 1%;
+  top: -21%;
   /* Adjust the distance from the top as needed */
   left: 95%;
   display: flex;
@@ -273,7 +273,7 @@ div#offcanvasDarkNavbar {
   transform: skewX(0deg);
   width: 15%;
   /* Adjust the width as needed */
-  height: 73px;
+  height: 77px;
 }
 
 /* nut css  chinh kich co  thanh nav menu trang chu... */
@@ -1299,6 +1299,7 @@ top: 51%;
   position: absolute;
   left: 73%;
   top: 51%;
+
 }
 .input-group-online-5{
 
@@ -1330,14 +1331,7 @@ top: 51%;
 }
 
 /* code css tạo đặt xe nhanh */
-.hinh1-col
-{
-  position: absolute;
-  left: 31%;
-  top: 71%;
-  width: 20%;
 
-}
 /* tạo kích cỡ lịch */
 
 
@@ -2277,7 +2271,7 @@ img.image-car2 {
 }
 
 .datxebutton {
-  left: 90px;
+  left: 80%;
   width: 353px;
   top: 37%;
   position: absolute;
@@ -2302,19 +2296,42 @@ display: block;
 .label-11{
 
   position: relative;
-  left: -15%;
+  left: -20%;
   width: 20%;
+  top:  -70px;
 
 }
 
 .batdau-1{
 
   position: relative;
-  left: -10%;
+  left: 31%;
   width: 20%;
-
+  top:  -70px;
 
 }
+
+
+
+.chondate-1{
+   position: relative;
+  left: 0%;
+  width: 20%;
+  top: -70px;
+}
+
+
+.hinh1-col
+{
+  position: absolute;
+  left: 31%;
+  top: 61%;
+  width: 20%;
+
+}
+
+.col
+
 /* code css hơn 1000 */
 
 

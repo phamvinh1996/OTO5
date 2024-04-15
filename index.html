@@ -9,9 +9,9 @@
   <link rel="stylesheet" href="./assets/lib/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/lib/datetimepicker-master/jquery.datetimepicker.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
     integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
     integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,14 +22,16 @@
 
 
 
-  <!-- link 5.0 thanh menu -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+<!-- thư viện menu trên thanh nav -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> -->
 
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  
+
+
+
+
+
 
 
 <body>
@@ -380,6 +382,7 @@
 </div>
 <br>
   <!-- triangle-button -->
+  <!-- đặt xe nhanh -->
 
   <!--  -->
   <!-- ĐẶT XE NHANH -->
@@ -422,8 +425,9 @@
                   <span class="input-group-text-2"><i class="fas fa-chair"></i>
                   </span>
                   </div>
-
+                
                 <div class="col-md-3">
+
                   <label for="validationTooltipUsername" class="form-label">Email</label>
                   <input type="text" class=" form-handle" id="validationTooltipUsername" placeholder="Email"
                         aria-describedby="validationTooltipUsernamePrepend" required>
@@ -434,12 +438,16 @@
                     Please provide a valid zip.
                   </div>
                 </div>
-                </form>
-                <div class="col-md-3">
+            
+              
+                <!-- <div class="col-md-3"> -->
+
+                  <div class="col-md-4">
                   <label for="validationTooltip03" class="form-label">Số Lượng</label>
 
 
-                 <select class="form-handle" id="validationTooltip02" required>
+                 <select class="form-handle" id="validationTooltip03" required> 
+                 
                       <option value="">Số Lượng</option>
                       <option value="Ghế 1">1</option>
                       <option value="Ghế 2">2</option>
@@ -457,7 +465,7 @@
                 </div>
               </form>
               <!-- <div class="col-md-3"> -->
-                <div class="batdau-1"
+                <div class="batdau-1">
                 <label for="validationTooltip04" class="form-label">Bắt Đầu</label>
 
 
@@ -484,8 +492,12 @@
                 </div>
               </div>
               </div>
+              </div>
+              
             </form>
-            <div class="col-md-3">
+            <!-- <div class="col-md-4"> -->
+              <div class="chondate-1">
+
               <label for="validationTooltip05" class="form-label">Chọn Ngày</label>
               <!-- <input type="text" class="form-control" id="validationCustom05" required> -->
 
@@ -505,9 +517,10 @@
               </div>
             </div>
             </div>
+            
           
-            <!-- <div class="col-md-3"> -->
-              <div class="hinh1-col"
+            <!-- <div class="col-md-4"> -->
+              <div class="hinh1-col">
               <label for="validationTooltip05" class="form-label">Chọn giờ</label>
               <!-- <input type="text" class="form-control" id="validationCustom05" required> -->
               <input id="timepicker" id="datepicker" class="form-handle" placeholder="Chọn Giờ">
