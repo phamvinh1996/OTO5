@@ -1826,13 +1826,16 @@ p {
 
 
 /* code css chữ và ảnh call us */
-.icon-text {
+.icon-text-1 {
   font-size: 28px;
   color: #dfdb0f;
-  margin-top: 45px;
+  /* margin-top: -51px; */
   text-align: left;
-  transform: translateX(-100%);
+  /* transform: translateX(-100%); */
   margin-bottom: 20px;
+  position: absolute;
+  top: 200px;
+  left: 120px;
 
 }
 
@@ -1844,7 +1847,7 @@ p {
   float: left;
 
 
-  margin-top: 130px;
+  margin-top: 110px;
   /* Add any other styles you want */
 }
 
@@ -1884,7 +1887,7 @@ p {
 .white-text {
   color: white;
   position: relative;
-  transform: translateX(-33%);
+  transform: translateX(-37%);
 }
 
 .img-car {
