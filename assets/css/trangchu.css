@@ -1962,11 +1962,16 @@ p {
 }
 
 .logo-image {
-  transform: translateX(-100%);
+  /* transform: translateX(-100%); */
   float: left;
   width: 200px;
   /* Kích cỡ logo */
   height: auto;
+
+
+  position: absolute;
+  top: 88px;
+  left: -8%;
 
 }
 
@@ -2015,8 +2020,8 @@ button {
 /* thanh nav footer hotline */
 .hotline {
   position: absolute;
-  top: -0%;
-  right: -32%;
+  top: -11%;
+  right: -14%;
   background-color: #ff9900;
   padding: 10px;
   width: 700px;
@@ -2194,7 +2199,7 @@ button {
   width: 100%;
   height: 100px;
   overflow: hidden;
-  top: 232px;
+  top: 183px;
   position: relative;
 }
 
