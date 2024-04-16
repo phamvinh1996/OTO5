@@ -328,14 +328,3 @@ document.querySelector('.carousel').addEventListener('contextmenu', (e) => {
 
 /*  */
 
-
-const carouselContent = document.querySelector('.carousel-content');
-const carouselSlides = Array.from(document.querySelectorAll('.carousel-slide'));
-const carouselNavButtons = Array.from(document.querySelectorAll('.carousel-nav button'));
-
-function moveToSlide(slideIndex) {
-    carouselContent.style.transform = `translateX(-${slideIndex * 33.33}%)`;
-    carouselNavButtons.forEach((button, index) => {
-        button.classList.toggle('active', index === slideIndex);
-    });
-}
