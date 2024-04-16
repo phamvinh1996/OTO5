@@ -1808,9 +1808,24 @@ border-radius: 60%;
   top: 48%;
   left: 61%;
 }
+.info2{
+  position: absolute;
+  top:19%;
+  left: 110%;
+  border-radius: 60%;
+}
 
+.ten3{
+  position:absolute;
+  top: 27%;
+  left: 150%;
+}
+.ten4{
+  position: absolute;
+  top: 40%;
+  left: 150%;
 
-
+}
 
 /*  */
 /*  */
