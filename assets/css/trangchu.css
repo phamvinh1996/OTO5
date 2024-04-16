@@ -1781,6 +1781,22 @@ p {
 
 
 
+
+.table-1 {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+
+
+
+
+
 /*  */
 .logo {
   width: 150px;
