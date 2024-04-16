@@ -1824,9 +1824,23 @@ border-radius: 60%;
   position: absolute;
   top: 40%;
   left: 150%;
-
 }
-
+.info3{
+  position: absolute;
+  top: 17%;
+  left: 211%;
+  border-radius: 60%;
+}
+.ten05{
+position: absolute;
+top: 25%;
+left: 250%;
+}
+.ten06{
+  position: absolute;
+top: 35%;
+left: 250%;
+}
 /*  */
 /*  */
 .logo {
