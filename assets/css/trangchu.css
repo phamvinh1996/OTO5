@@ -449,7 +449,7 @@ div#offcanvasDarkNavbar {
 .chunhat1 {
   position: absolute;
   top: 50%;
-  left: 63%;
+  left: 60%;
   transform: translate( -50%, -50%) rotate(30deg) skewY( -28deg);
   width: 100px;
   height: 850px;
