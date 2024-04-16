@@ -731,11 +731,11 @@ img {
 }
 
 /*  Code CSS VỀ CHÚNG TÔI */
-.container {
+ .container {
   display: flex;
   flex-wrap: wrap;
 
-}
+} 
 
 /* code css chữ về chúng tôi */
 .container p {
@@ -770,7 +770,6 @@ left: -37%;
   font-size: 27px;
   font-weight: bold;
 
-
 }
 h1,
 p {
@@ -778,11 +777,11 @@ p {
   color: #000;
 }
 
-.container {
+ .container {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} 
 
 .image {
   width: 220px;
@@ -1775,8 +1774,74 @@ p {
 }
 
 /*  */
+/* hon1000 khach hang */
+/* bảng hon 1000 */
+.table {
+  width: 500px;
+  height: 350px;
+  border: 1px solid black;
+  overflow: hidden;
+  position: relative;
+}
 
+.carousel {
+  display: flex;
+  width: 300%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
 
+.slide {
+  width: 33.33%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* code html chữ kich co chữ  hinh1 */
+.satisfaction{
+
+position: absolute;
+left: 1%;
+}
+
+.logo1{
+position: absolute;
+left: 10%;
+border-radius: 60%;
+}
+/* ten */
+.ten1{
+
+position: absolute;
+left: 25%;
+top: 50%;
+}
+.ten2{
+  position: absolute;
+  left: 23%;
+  top: 59%;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.company-info p {
+  margin: 0;
+}
 
 /* call us now */
 .section-online-thepeople {
@@ -1966,12 +2031,9 @@ p {
   width: 200px;
   /* Kích cỡ logo */
   height: auto;
-
-
   position: absolute;
   top: 88px;
   left: -8%;
-
 }
 
 .content {
