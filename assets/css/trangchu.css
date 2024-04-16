@@ -1812,21 +1812,47 @@ left: 1%;
 
 .logo1{
 position: absolute;
-left: 10%;
+left: 3%;
 border-radius: 60%;
 }
 /* ten */
 .ten1{
 
 position: absolute;
-left: 25%;
+left: 18%;
 top: 50%;
 }
 .ten2{
   position: absolute;
-  left: 23%;
+  left: 17%;
   top: 59%;
 }
+.logo2{
+position: absolute;
+left: 40%;
+border-radius: 60%;
+}
+.ten3{
+position: absolute;
+left: 53%;
+top: 45%;
+}
+
+.name1{
+position: absolute;
+left: 40%;
+}
+.ten4{
+position: absolute;
+left: 53%;
+top: 55%;
+
+
+}
+
+
+
+/*  */
 .logo {
   width: 150px;
   height: 150px;
