@@ -1777,14 +1777,11 @@ p {
 /* hon1000 khach hang */
 /* bảng hon 1000 */
 
-/* code html chữ kich co chữ  hinh1 */
-
-
-
+/* code html chữ kich co chữ bang hon 1000 */
 
 .table-1 {
-  width: 500px;
-  height: 300px;
+  width: 550px;
+  height: 500px;
   border: 1px solid black;
   overflow: hidden;
   position: relative;
@@ -1792,11 +1789,30 @@ p {
 
 
 
+/*  */
+.info1{
+  position: relative;
+  left: -13%;
+top: -390px;
+border-radius: 60%;
+}
+/*  */
+.ten01{
+
+  position: absolute;
+  top: 40%;
+  left: 63%;
+}
+.ten02{
+  position: absolute;
+  top: 48%;
+  left: 61%;
+}
 
 
 
 
-
+/*  */
 /*  */
 .logo {
   width: 150px;
