@@ -1450,6 +1450,10 @@ top: 51%;
 
 
 
+/*  */
+
+
+
 
 
 /*  */
@@ -1790,6 +1794,7 @@ p {
 
 
 /*  */
+/* hình chu 1 */
 .info1{
   position: relative;
   left: -13%;
@@ -1808,6 +1813,7 @@ border-radius: 60%;
   top: 48%;
   left: 61%;
 }
+/* hinh chu 2 */
 .info2{
   position: absolute;
   top:19%;
@@ -1825,6 +1831,7 @@ border-radius: 60%;
   top: 40%;
   left: 150%;
 }
+/* hinh chu 3 */
 .info3{
   position: absolute;
   top: 17%;
@@ -1841,6 +1848,23 @@ left: 250%;
 top: 35%;
 left: 250%;
 }
+/* code di chuyển trang */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  */
 /*  */
 .logo {

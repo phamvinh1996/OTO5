@@ -328,3 +328,7 @@ document.querySelector('.carousel').addEventListener('contextmenu', (e) => {
 
 /*  */
 
+
+
+
+/* di chuyển trang hon 1000 khach hang */
