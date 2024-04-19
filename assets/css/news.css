@@ -166,7 +166,6 @@
 .icon-car-02 .car1 {
   animation: carAnimation 6s linear infinite;
 }
-
 @keyframes carAnimation {
   0% {
     transform: translateX(-100%);
