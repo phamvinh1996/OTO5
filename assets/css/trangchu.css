@@ -1273,6 +1273,20 @@ p {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* biểu tượng đặt xe nhanh */
 
  .input-group-text-1{
@@ -1785,7 +1799,7 @@ p {
 
 .table-1 {
   width: 550px;
-  height: 350px;
+  height: 380px;
   border: 1px solid black;
   overflow: hidden;
   position: relative;
@@ -1850,15 +1864,28 @@ left: 250%;
 }
 /* code di chuyển trang */
 
+/* code bảng 1000 */
 
 
 
+/* nút 3 chấm hơn 1000 */
+.dots-container {
+  text-align: center;
+}
 
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #bbb;
+}
 
-
-
-
-
+/* Tùy chỉnh màu sắc của dot đã được chọn */
+.dot.active {
+  background-color: #555;
+}
 
 
 

@@ -793,7 +793,7 @@
       <p>Với phương châm " khách hàng là tất cả, "An toàn là trên hết". Chúng tôi luôn hướng tới tiêu chí chất lượng, an toàn và chuyên nghiệp</p>
 
 
-      <div class="table-1">
+      <!-- <div class="table-1">
         <div class="carousel">
             <div class="slide">
               <p class="satisfaction">Hài lòng với cách làm việc, đầy chuyên nghiệp, nghiêm túc.<br> Đặt lịch tôi được tư vấn dặn dò kỹ thời điểm đặt lịch đúng giờ </p>
@@ -822,10 +822,99 @@
           </div>
           </div>    
   </div>
-     
+      -->
+
+     <!--  -->
+
+      <!-- <div class="table-1"> -->
+        <!-- <div class="carousel"> -->
+
+          <!-- <div class="new-class cart-service slider">
+          
+          <div class="slide">
+            <p class="satisfaction">Hài lòng với cách làm việc, đầy chuyên nghiệp, nghiêm túc.<br> Đặt lịch tôi được tư vấn dặn dò kỹ thời điểm đặt lịch đúng giờ </p>
+            <img src="https://web307.webvungtau.com/wp-content/uploads/2023/03/customer-dieu-le.jpg" alt="Logo 1" class="info1">
+            <div class="company-info">
+              <p class="ten01">Diệu Lê</p>
+              <p class="ten02">Công Ty vietfood</p>
+            </div>
+          </div>
+          <div class="slide">
+            <p class="name1">Lái xe điểm đạm lịch sự đặc biệt là khi di chuyển cảm thấy không <br> bị sóc giật mình, rất an tâm để có tranh thủ nghỉ trên xe</p>
+            <img src="https://web307.webvungtau.com/wp-content/uploads/2023/03/customer-hai-long.jpg" alt="Logo 2" class="info2">
+            <div class="company-info">
+              <p class="ten3">Hải Long</p>
+              <p class="ten4">ACB Bank</p> 
+            </div>
+          </div>
+          <div class="slide">
+            <p>Mỗi lần gia đình về quê thật sự rất phiền khi mang nhiều hành lý có nhiều xe không cho mang. Nhưng thấy các bạn thoải mái</p>
+            <img src="https://web307.webvungtau.com/wp-content/uploads/2023/03/customer-minh-hang.jpg" alt="Logo 3" class="info3">
+            <div class="company-info">
+              <p class="ten05">Minh Hằng</p>
+              <p class="ten06">Tài chính</p>
+            </div>
+          </div>
+        </div>
+      </div>
+ -->
 
 
-    
+<!--  -->
+
+
+
+<div class="table-1">
+  <div class="slide">
+    <p class="satisfaction">Hài lòng với cách làm việc, đầy chuyên nghiệp, nghiêm túc.<br> Đặt lịch tôi được tư vấn dặn dò kỹ thời điểm đặt lịch đúng giờ </p>
+    <img src="https://web307.webvungtau.com/wp-content/uploads/2023/03/customer-dieu-le.jpg" alt="Logo 1" class="info1">
+    <div class="company-info">
+      <p class="ten01">Diệu Lê</p>
+      <p class="ten02">Công Ty vietfood</p>
+    </div>
+  </div>
+  <div class="slide">
+    <p class="name1">Lái xe điểm đạm lịch sự đặc biệt là khi di chuyển cảm thấy không <br> bị sóc giật mình, rất an tâm để có tranh thủ nghỉ trên xe</p>
+    <img src="https://web307.webvungtau.com/wp-content/uploads/2023/03/customer-hai-long.jpg" alt="Logo 2" class="info2">
+    <div class="company-info">
+      <p class="ten3">Hải Long</p>
+      <p class="ten4">ACB Bank</p> 
+    </div>
+  </div>
+  <div class="slide">
+    <p>Mỗi lần gia đình về quê thật sự rất phiền khi mang nhiều hành lý có nhiều xe không cho mang. Nhưng thấy các bạn thoải mái</p>
+    <img src="https://web307.webvungtau.com/wp-content/uploads/2023/03/customer-minh-hang.jpg" alt="Logo 3" class="info3">
+    <div class="company-info">
+      <p class="ten05">Minh Hằng</p>
+      <p class="ten06">Tài chính</p>
+    </div>
+  </div>
+</div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
             <!-- loi ich khi dat xe -->
@@ -1155,22 +1244,30 @@
 
 
 
+<script>
+  $(document).ready(function(){
+    $('.carousel').slick();
+  });
+</script>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.table-1').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true, // Tự động chuyển đổi slide
+      autoplaySpeed: 2000 // Thời gian chờ giữa các slide (ms)
+    });
+  });
+</script>
 
 
 
