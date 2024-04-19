@@ -1810,14 +1810,11 @@ p {
 /*  */
 /* hình chu 1 */
 .info1{
-  /* position: relative;
-  left: -13%; */
 top: -390px;
 border-radius: 60%;
 }
 /*  */
 .ten01{
-
    position: absolute;
 right: 78%;
 
@@ -1829,9 +1826,7 @@ right: 78%;
 }
 /* hinh chu 2 */
 .info2{
-  /* position: absolute; */
   top:19%;
-  /* left: 110%; */
   border-radius: 60%;
 }
 
@@ -1846,9 +1841,7 @@ right: 78%;
 }
 /* hinh chu 3 */
 .info3{
-  /* position: absolute; */
   top: 17%;
-  /* left: 211%; */
   border-radius: 60%;
 }
 .ten05{
