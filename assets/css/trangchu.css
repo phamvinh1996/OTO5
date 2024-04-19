@@ -1810,57 +1810,56 @@ p {
 /*  */
 /* hình chu 1 */
 .info1{
-  position: relative;
-  left: -13%;
+  /* position: relative;
+  left: -13%; */
 top: -390px;
 border-radius: 60%;
 }
 /*  */
 .ten01{
 
-  position: absolute;
-  top: 40%;
-  left: 63%;
+   position: absolute;
+right: 78%;
+
 }
 .ten02{
   position: absolute;
-  top: 48%;
-  left: 61%;
+  left: 20%;
+  top: 53%;
 }
 /* hinh chu 2 */
 .info2{
-  position: absolute;
+  /* position: absolute; */
   top:19%;
-  left: 110%;
+  /* left: 110%; */
   border-radius: 60%;
 }
 
 .ten3{
   position:absolute;
-  top: 27%;
-  left: 150%;
+  left: 35%;
 }
 .ten4{
   position: absolute;
-  top: 40%;
-  left: 150%;
+  top: 53%;
+  left: 35%;
 }
 /* hinh chu 3 */
 .info3{
-  position: absolute;
+  /* position: absolute; */
   top: 17%;
-  left: 211%;
+  /* left: 211%; */
   border-radius: 60%;
 }
 .ten05{
 position: absolute;
-top: 25%;
-left: 250%;
+top: 47%;
+left: 50%;
 }
 .ten06{
   position: absolute;
-top: 35%;
-left: 250%;
+top: 61%;
+left: 50%;
 }
 /* code di chuyển trang */
 
