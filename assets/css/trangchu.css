@@ -411,6 +411,10 @@ div#offcanvasDarkNavbar {
   margin-bottom: 20px;
   color: #faf1f1;
   text-align: start;
+  font-size: 47px;
+
+  position: absolute;
+  left: 30%;
 }
 
 .carousel-caption .img-car {
@@ -479,8 +483,8 @@ div#offcanvasDarkNavbar {
 /* button */
 .btn-view-more {
   float: left;
-  left: 25%;
-  width: 30%;
+  left: 16%;
+  width: 23%;
   height: 50px;
   display: inline-block;
   padding: 10px 20px;
@@ -523,7 +527,7 @@ div#offcanvasDarkNavbar {
 .carousel-caption h1 {
 
   font-weight: bold;
-  left: 60%;
+  left: 52%;
   margin-bottom: 20px;
   animation: slide-up 0.5s ease forwards;
 
@@ -589,8 +593,8 @@ div#offcanvasDarkNavbar {
   position: relative;
   bottom: 58px;
   height: 47px;
-  top: 10%;
-  left: 7%;
+  top: 18%;
+  left: 10%;
   text-align: center;
   width: 270px;
   
