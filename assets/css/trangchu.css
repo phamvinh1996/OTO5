@@ -509,7 +509,7 @@ div#offcanvasDarkNavbar {
  /* code css chuyển động qua trang book */
 .carousel-caption {
   position: absolute;
-  top: 60%;
+  top: 58%;
   /* left: 100%; */
   width: 50%;
   height: 50%;
