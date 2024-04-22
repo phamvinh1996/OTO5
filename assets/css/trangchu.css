@@ -433,7 +433,7 @@ div#offcanvasDarkNavbar {
   position: absolute;
   top: -50%;
   bottom: 0%;
-  left: 99%;
+  left: 97%;
   width: 200px;
   height: 220%;
   transform: skew(-30deg);
