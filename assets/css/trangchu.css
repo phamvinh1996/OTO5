@@ -680,11 +680,11 @@ button.carousel-control-next {
 
   content: "";
   position: absolute;
-  top: 68%;
+  /* top: 68%; */
   right: 0;
   width: 700px;
   height: 90px;
-  top: 70%;
+  top: 62%;
   right: 90%;
   left: -55%;
   background-color: #f4f5f8;
