@@ -251,7 +251,6 @@
 }
 
 
-
 /* đăng kí footer */
 
  .subscribe input[type="email"] {
@@ -262,8 +261,6 @@
   /* clip-path: polygon(0 0, 75% 0, 100% 100%,  0  100%); */
   clip-path: polygon(0 0, 95% 0, 100% 100%, 0 100%);
 } 
-
-
 
 /* nut dang ky footer */
  #subscribeBtn{
