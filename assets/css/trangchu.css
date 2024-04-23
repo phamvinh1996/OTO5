@@ -645,9 +645,15 @@ div#offcanvasDarkNavbar {
 }
 button.carousel-control-prev{
   width: 100px;
+
+  position: absolute;
+  left: -9%;
 }
 button.carousel-control-next {
   width: 100px;
+
+  position: absolute;
+  left: 60%;
 }
 /*  code css màu nút button book*/
 .button-carousel button {
