@@ -785,7 +785,7 @@ img {
   height: auto;
 }
 
-/* giới thiệu về chững tôi */
+/* giới thiệu về chững tôi  chữ màu cam*/
 
 .introduction {
   color: orange;
@@ -955,6 +955,8 @@ p {
   color: rgb(227, 215, 215);
 }
 
+/* chữ màu cam */
+
 /* carrt anhr chen anh banner dich vu noi bat */
 .cart-service {
   position: relative;
@@ -963,6 +965,8 @@ p {
 
 .cover-image .text {
   font-size: 36px;
+  position: relative;
+  top: -39%;
 }
 
 .cover-image .text {
@@ -977,8 +981,8 @@ p {
 
 .cover-image p {
   color: #c6b9b9;
-  font-size: 18px;
-  margin-top: 10px;
+  font-size: 20px;
+  margin-top: -23px;
 }
 
 .container {
