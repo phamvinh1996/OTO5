@@ -625,19 +625,19 @@ div#offcanvasDarkNavbar {
 }
 /* code chu pre - next */
 .previous-word{
-  font-size: 10px;
+  font-size: 16px;
   color: white;
   z-index: 1;
   position: relative;
-  left: 17%;
+  left: 7%;
 
 }
 .next-word{
-  font-size: 10px;
+  font-size: 16px;
   z-index: 1;
   position: relative;
   color: white;
-  right: 10%;
+  right: 7%;
 }
 .page-number{
   color:red;
