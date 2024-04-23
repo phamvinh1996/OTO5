@@ -1282,6 +1282,12 @@ p {
 
 /*  */
 /* ĐẶT XE NHANH */
+
+.orange-text {
+  color: orange;
+}
+
+
 .section-online-booking h3 {
   color: #e8dede;
   /* Màu chữ trắng */
