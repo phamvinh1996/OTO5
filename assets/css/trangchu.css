@@ -785,6 +785,12 @@ img {
   height: auto;
 }
 
+/* giới thiệu về chững tôi */
+
+.introduction {
+  color: orange;
+  font-size: 26px;
+}
 /*  Code CSS VỀ CHÚNG TÔI */
  .container {
   display: flex;
