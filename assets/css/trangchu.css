@@ -643,15 +643,14 @@ div#offcanvasDarkNavbar {
   position: relative;
   right: 7%;
 }
+
 button.carousel-control-prev{
   width: 100px;
-
   position: absolute;
   left: -9%;
 }
 button.carousel-control-next {
   width: 100px;
-
   position: absolute;
   left: 60%;
 }
