@@ -1524,6 +1524,21 @@ top: 51%;
   position: absolute;
   top: 32%;
 }
+/* nút 3 chấm  */
+.dot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  margin: 5px;
+}
+
 
 /* code css cắt ảnh dịch vụ nỗi bât*/
 .card-image1 {
