@@ -1525,13 +1525,6 @@ top: 51%;
   top: 32%;
 }
 
-
-
-
-
-
-
-
 /* code css cắt ảnh dịch vụ nỗi bât*/
 .card-image1 {
   clip-path: polygon(0 0, 100% 0, 100% 100%);
