@@ -1432,6 +1432,14 @@ top: 51%;
   color: #130e0e;
 }
 
+
+/* thẻ p màu cam */
+.orange-choosee{
+  color: orange;
+  font-weight: bold;
+
+
+}
 /*  TẠO CART ẢNH CHOOSEE TAXI */
 .cart-container {
   display: flex;
