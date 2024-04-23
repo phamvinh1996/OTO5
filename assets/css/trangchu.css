@@ -29,12 +29,12 @@
 }
 
 /* code css chữ taxi giá liên tỉnh */
-.navbar-text{
+.navbar-text01{
 
-  color: #555657;
+  color: #898b8b;
   position: relative;
   left: 250px;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
 }
 
