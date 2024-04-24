@@ -1283,22 +1283,12 @@ p {
 /* dau 3 chấm nút di chuyển dịch vụ nỗi bâtj */
 
 
-
-.container {
-  position: relative;
-}
-
-.card {
-  display: none;
-  /* Các kiểu khác cho thẻ card */
-}
-
-.dots-container {
+.slider-dots {
   text-align: center;
   margin-top: 10px;
 }
 
-.dot {
+.slider-dot {
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -1306,13 +1296,11 @@ p {
   background-color: #bbb;
   margin: 0 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 
-.dot.active {
+.slider-dot.active {
   background-color: #000;
 }
-
 
 
 
@@ -2106,7 +2094,7 @@ left: 50%;
 
 .slick-dots li button {
   width: 10px;
-  height: 10px;
+  height: 41px;
   border-radius: 50%;
   background-color: #333;
   border: none;

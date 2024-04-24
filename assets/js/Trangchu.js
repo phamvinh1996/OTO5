@@ -357,27 +357,34 @@ document.querySelector('.carousel').addEventListener('contextmenu', (e) => {
 
 
 /* dich vu noi bat... */
+
+
+
 $(document).ready(function(){
   $('.slider').slick({
-    arrows: false,
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 300,
     slidesToShow: 1,
     adaptiveHeight: true
-
-
-  
-  
   });
-  
-  $('.dot').click(function(){
+
+  var slideCount = $('.slider .card').length;
+  var dotsHtml = '';
+
+  for (var i = 0; i < slideCount; i++) {
+    dotsHtml += '<span class="slider-dot"></span>';
+  }
+
+  $('.slider-dots').html(dotsHtml);
+
+  $('.slider-dot').click(function(){
     var index = $(this).index();
     $('.slider').slick('slickGoTo', index);
   });
-  
+
   $('.slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-    $('.dot').removeClass('active');
-    $('.dot').eq(nextSlide).addClass('active');
+    $('.slider-dot').removeClass('active');
+    $('.slider-dot').eq(nextSlide).addClass('active');
   });
 });
