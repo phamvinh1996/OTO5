@@ -1280,6 +1280,26 @@ p {
   }
 } 
 
+/* dau 3 chấm nút di chuyển dịch vụ nỗi bâtj */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  */
 /* ĐẶT XE NHANH */
 
@@ -1514,18 +1534,18 @@ top: 51%;
 /* dich vu noi bat pre */
 .slick-prev{
 
-  left: 99%;
+  left: 100%;
   position: absolute;
-  top: 32%;
+  top: 53%;
 }
 
 .slick-next{
-  left: -4%;
+  left: -5%;
   position: absolute;
-  top: 32%;
+  top: 52%;
 }
 /* nút 3 chấm  */
-.dot-container {
+/* .dot-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1537,7 +1557,55 @@ top: 51%;
   background-color: #000;
   border-radius: 50%;
   margin: 5px;
+} */
+
+
+
+
+.slider {
+  position: relative;
 }
+
+.card {
+  /* Định dạng cho mỗi slide */
+}
+
+/* Định dạng cho các nút dot */
+ /* .slick-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-dots li {
+  padding: 0 8px;
+}
+
+.slick-dots li button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #fff;
+}
+   */
+
+
+
+
+
 
 
 /* code css cắt ảnh dịch vụ nỗi bât*/
@@ -1972,7 +2040,7 @@ left: 50%;
 
 
 /* nút 3 chấm hơn 1000 */
-.dots-container {
+  .dots-container {
   text-align: center;
 }
 
@@ -1983,7 +2051,60 @@ left: 50%;
   margin: 0 5px;
   border-radius: 50%;
   background-color: #bbb;
+} 
+
+
+
+/* hon 1000 dấu 3 chấm */
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.slick-dots li {
+  padding: 0 8px;
+}
+
+.slick-dots li button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #fff;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Tùy chỉnh màu sắc của dot đã được chọn */
 .dot.active {

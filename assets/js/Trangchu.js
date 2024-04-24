@@ -336,4 +336,23 @@ document.querySelector('.carousel').addEventListener('contextmenu', (e) => {
 
 
 
+/* dịch vụ nổi bật */
+
+// $(document).ready(function() {
+//   $('.slider').slick({
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//     dots: true,
+//     appendDots: '.slider', // Thêm các nút dot vào phần tử có class "slider"
+//     customPaging: function(slider, i) {
+//       return '<button></button>'; // Tạo nút dot tùy chỉnh
+//     }
+//   });
+// });
+
+
+
+
+
+
 
