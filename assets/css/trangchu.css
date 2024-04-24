@@ -1284,6 +1284,36 @@ p {
 
 
 
+.container {
+  position: relative;
+}
+
+.card {
+  display: none;
+  /* Các kiểu khác cho thẻ card */
+}
+
+.dots-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #bbb;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #000;
+}
+
+
 
 
 
@@ -1532,14 +1562,14 @@ top: 51%;
 
 
 /* dich vu noi bat pre */
-.slick-prev{
+.cart-service .slick-prev{
 
   left: 100%;
   position: absolute;
   top: 53%;
 }
 
-.slick-next{
+.cart-service .slick-next{
   left: -5%;
   position: absolute;
   top: 52%;
