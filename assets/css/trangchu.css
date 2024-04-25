@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f5efef;
+  background-color: #f4f5f8;
   padding: 10px;
 }
 
@@ -166,7 +166,7 @@ top: 1%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(238, 169, 42);
+  background-color: #ff9900;
   padding: 10px;
   width: 60%;
 
@@ -535,7 +535,7 @@ div#offcanvasDarkNavbar {
   height: 50px;
   display: inline-block;
   padding: 10px 20px;
-  background-color: orange;
+  background-color: #ff9900;
   /* Màu cam */
   color: white;
   text-decoration: none;
@@ -1020,7 +1020,7 @@ p {
 
 .button {
   padding: 10px 20px;
-  background-color: rgb(220, 117, 20);
+  background-color: #ff9900;
   color: white;
   text-decoration: none;
   border: none;
@@ -1085,7 +1085,7 @@ p {
 /* nút xem thêm dịch vụ nỗi bật */
 
 .nutxemthem {
-  background-color: orange;
+  background-color: #ff9900;
   color: white;
   padding: 10px 20px;
   border-radius: 4px;
@@ -1096,7 +1096,7 @@ p {
 }
 
 .nutxemthem:hover {
-  background-color: darkorange;
+  background-color: #ff9900;
 
 }
 
@@ -1161,7 +1161,7 @@ p {
   transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
   width: 80px;
   height: 150px;
-  background-color: rgb(223, 177, 41);
+  background-color: #ff9900;
   z-index: 1;
 }
 
@@ -1283,24 +1283,40 @@ p {
 /* dau 3 chấm nút di chuyển dịch vụ nỗi bâtj */
 
 
-.slider-dots {
-  text-align: center;
-  margin-top: 10px;
+.slider {
+  position: relative;
 }
 
-.slider-dot {
-  display: inline-block;
+.dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #bbb;
+  background-color: #160b75;
   margin: 0 5px;
   cursor: pointer;
 }
 
-.slider-dot.active {
+.dot.slick-active {
   background-color: #000;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -1955,7 +1971,7 @@ p {
 
 /* hơn 1ooo khach hang */
 .orange-table {
-  background-color: orange;
+  background-color: #ff9900;
   padding: 70px;
   border: 1px solid gray;
   display: flex;
@@ -2375,9 +2391,9 @@ left: 50%;
   color: white;
 }
 
-/* nút màu cam */
+/* nút màu cam  nút dịch vụ nỗi bật*/
 button {
-  background-color: rgb(212, 209, 21);
+  background-color: #ff9900;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -2512,7 +2528,7 @@ button {
 /* nut dang ky footer */
 .subscribe button {
   padding: 5px 10px;
-  background-color: #ca880e;
+  background-color: #ff9900;
   color: white;
   border: none;
   cursor: pointer;

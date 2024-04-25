@@ -358,33 +358,22 @@ document.querySelector('.carousel').addEventListener('contextmenu', (e) => {
 
 /* dich vu noi bat... */
 
+// document.addEventListener("DOMContentLoaded", function() {
+//    var slider = document.querySelector(".slider");
 
+//    $(slider).slick({
+//      dots: true,
+//      arrows: false
+//    });
+//  });
 
-$(document).ready(function(){
-  $('.slider').slick({
-    dots: false,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    adaptiveHeight: true
-  });
-
-  var slideCount = $('.slider .card').length;
-  var dotsHtml = '';
-
-  for (var i = 0; i < slideCount; i++) {
-    dotsHtml += '<span class="slider-dot"></span>';
-  }
-
-  $('.slider-dots').html(dotsHtml);
-
-  $('.slider-dot').click(function(){
-    var index = $(this).index();
-    $('.slider').slick('slickGoTo', index);
-  });
-
-  $('.slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-    $('.slider-dot').removeClass('active');
-    $('.slider-dot').eq(nextSlide).addClass('active');
-  });
-});
+// $(document).ready(function(){
+//   $('.slider').slick({
+//     dots: true, // Hiển thị nút dot
+//     //dotsClass: '.dots', // Đặt nút dot vào một phần tử có class "dots"
+//     // customPaging: function(slider, i) {
+//     //   // Tạo HTML cho nút dot
+//     //   return '<button class="dot"></button>';
+//     // }
+//   });
+// });
