@@ -1645,15 +1645,15 @@ top: 51%;
 /* code css cắt ảnh dịch vụ nỗi bât*/
 .card-image1 {
   clip-path: polygon(0 0, 100% 0, 100% 100%);
-  width: 300px;
+  width: 359px;
   height: 200%;
 }
 
 /* xe ô tô */
 .card-picture {
-  width: 270px;
+  width: 336px;
   position: absolute;
-  top: 30%;
+  top: 34%;
   left: 50%;
   transform: translate(-50%, -50%);
 
