@@ -1534,6 +1534,7 @@ top: 51%;
 .cart-seats {
   margin: 5px 0;
 }
+/*  */
 
 .btn {
   display: inline-block;
@@ -1641,7 +1642,6 @@ top: 51%;
 
 
 
-
 /* code css cắt ảnh dịch vụ nỗi bât*/
 .card-image1 {
   clip-path: polygon(0 0, 100% 0, 100% 100%);
@@ -1663,9 +1663,9 @@ top: 51%;
 
 .card {
 
-  width: 350px;
+  width: 370px;
   /* Đặt chiều rộng của card */
-  height: 530px;
+  height: 1030px;
   /* Đặt chiều cao của card */
   background-color: white;
   border-radius: 10px;
