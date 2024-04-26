@@ -297,7 +297,6 @@
   left: 73%;
   color: #000;
   top: 2%;
-
 }
 
 .navbar-link1{
@@ -305,8 +304,6 @@
   left: 77%;
   color: #000;
   top: 2%;
-
-
 }
 
 .navbar-icon-fb{
@@ -316,7 +313,33 @@
   position: absolute;
   left: 79%;
 top: 1%;
-
-
-
 }
+
+
+/* tin tuc va su kien */
+
+
+
+/* code tạo tin tức sự kiện chữ màu */
+.card-title {
+  color: rgb(14, 11, 11);
+}
+
+.card-text {
+  color: rgb(9, 9, 11);
+}
+
+
+/* kích cỡ nút tin tức sự kiện */
+
+.card .custom-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-70%);
+  width: 100px;
+  height: 50px;
+  top: 80%;
+}
+
+
