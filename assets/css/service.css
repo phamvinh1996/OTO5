@@ -276,3 +276,47 @@
   position: absolute;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
 }
+
+
+/* thanh taxi gia ien tinh */
+
+.navbar-text{
+  position: absolute;
+  left: 20%;
+
+  color: #898b8b;
+  position: relative;
+  left: 250px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*  */
+.navbar-link-lienhe1{
+  position: absolute;
+  left: 73%;
+  color: #000;
+  top: 2%;
+
+}
+
+.navbar-link1{
+  position: absolute;
+  left: 77%;
+  color: #000;
+  top: 2%;
+
+
+}
+
+.navbar-icon-fb{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  left: 79%;
+top: 1%;
+
+
+
+}
