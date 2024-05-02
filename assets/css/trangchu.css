@@ -758,11 +758,19 @@ button.carousel-control-next {
 /*  Code chi cột về chúng tôi*/
 
 /* thẻ p về chúng tôi */
-p {
-  font-size: 16px;
-  line-height: 26px;
-  margin-bottom: 15px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .container {
@@ -772,7 +780,7 @@ p {
 
 h1,
 p {
-  flex-basis: 100%;
+  flex-basis: 90%;
   color: #000;
 }
 
