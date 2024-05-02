@@ -759,6 +759,15 @@ button.carousel-control-next {
 
 /* thẻ p về chúng tôi */
 
+.pic1{
+
+  text-align: left;
+font-size: 15px;
+}
+
+
+
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -766,7 +775,7 @@ button.carousel-control-next {
 
 h1,
 p {
-  flex-basis: 90%;
+  flex-basis: 100%;
   color: #000;
 }
 
