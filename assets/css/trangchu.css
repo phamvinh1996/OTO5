@@ -756,6 +756,15 @@ button.carousel-control-next {
 /* nut tim kiem */
 /* code css giới thiệu về chúng tôi */
 /*  Code chi cột về chúng tôi*/
+
+/* thẻ p về chúng tôi */
+p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+
 .container {
   display: flex;
   flex-wrap: wrap;
