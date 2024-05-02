@@ -760,6 +760,13 @@ button.carousel-control-next {
 /* thẻ p về chúng tôi */
 
 
+.vechungtoi {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 
@@ -771,7 +778,7 @@ button.carousel-control-next {
 
 h1,
 p {
-  flex-basis: 90%;
+  flex-basis: 100%;
   color: #000;
 
 
