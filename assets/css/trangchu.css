@@ -759,11 +759,7 @@ button.carousel-control-next {
 
 /* thẻ p về chúng tôi */
 
-.pic1{
 
-  text-align: left;
-font-size: 15px;
-}
 
 
 
@@ -775,8 +771,10 @@ font-size: 15px;
 
 h1,
 p {
-  flex-basis: 100%;
+  flex-basis: 90%;
   color: #000;
+
+
 }
 
 /* CSS */
