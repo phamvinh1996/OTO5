@@ -670,7 +670,7 @@ div#offcanvasDarkNavbar {
 /* code chu pre - next */
 .previous-word{
   font-size: 16px;
-  color: white;
+  color: black;
   z-index: 1;
   position: relative;
   left: 7%;
@@ -680,7 +680,7 @@ div#offcanvasDarkNavbar {
   font-size: 16px;
   z-index: 1;
   position: relative;
-  color: white;
+  color: black;
   right: 7%;
 }
 .page-number{
@@ -703,9 +703,10 @@ button.carousel-control-next {
 }
 /*  code css màu nút button book*/
 .button-carousel button {
-  background-color: black;
+  /* background-color: black; */
+  background-color: whitesmoke;
   /* Đặt màu nền của nút là đen */
-  color: white;
+  color: black;
   /* Đặt màu chữ là trắng */
   border: none;
   /* Xóa viền của nút */
