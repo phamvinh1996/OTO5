@@ -674,7 +674,6 @@ div#offcanvasDarkNavbar {
   z-index: 1;
   position: relative;
   left: 7%;
-
 }
 .next-word{
   font-size: 16px;
@@ -682,6 +681,7 @@ div#offcanvasDarkNavbar {
   position: relative;
   color: black;
   right: 7%;
+  
 }
 .page-number{
   color:red;
