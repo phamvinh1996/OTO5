@@ -2121,6 +2121,9 @@ left: 50%;
 }
 
 .slick-dots li button {
+
+  top: 35px;
+  position: relative;
   width: 10px;
   height: 41px;
   border-radius: 50%;
