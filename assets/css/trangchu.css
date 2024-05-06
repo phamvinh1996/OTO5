@@ -346,6 +346,7 @@ div#offcanvasDarkNavbar {
 .dropdown-menu .black-text {
   color: black;
 
+ 
 }
 
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
@@ -999,20 +1000,21 @@ p {
 /* chữ số điện thoại về chúng tôi */
 
   .hot1 {
-    right: -22%;
+    right: 19%;
   color: black;
    font-size: 16px;
   position: relative;
   top: -46%;
 } 
 
- span {
-  position: relative;
-  left: -9%;
-  color: orange; 
-   font-size: 27px;
-   
-}  
+ .color1{
+  color: orange;
+  position: absolute;
+  right: 12%;
+  top: 78%;
+  font-size: 28px;
+
+ }
 
 
 
@@ -1020,18 +1022,19 @@ p {
 .image01{
 position: absolute;
 left: 33%;
-top: 63%;
+top: 75%;
 
 }
 
 /* ảnh về chúng tôi */
-.ceo1{
+ .ceo1{
 position: absolute;
 right: 46%;
-top: 53%;
+top: 70%;
 font-size: 20px;
 
-}
+
+} 
 /* Dịch vụ nỗi bật css */
 
 /* CODE DỊCH VỤ NỖI BẬT */
