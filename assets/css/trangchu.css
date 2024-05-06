@@ -2375,7 +2375,18 @@ left: 50%;
   color: rgb(224, 212, 212);
   /* Thay đổi màu chữ thành màu đỏ */
 }
+/*  */
+/* thanh nav màu cam phần liên hệ */
+.white-text001{
 
+  color: white;
+  position: relative;
+  transform: translateX(107%);
+  position: absolute;
+  right: -3%;
+  top:-46;
+
+}
 /* màu chữ p call us  */
 .white-text {
   color: white;
