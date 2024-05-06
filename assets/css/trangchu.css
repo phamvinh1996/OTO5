@@ -996,6 +996,42 @@ p {
 }
 
 
+/* chữ số điện thoại về chúng tôi */
+
+  .hot1 {
+    right: -22%;
+  color: black;
+   font-size: 16px;
+
+  position: relative;
+  top: -46%;
+} 
+
+ span {
+  position: relative;
+  left: -9%;
+  color: orange; 
+   font-size: 27px;
+}  
+
+
+
+/* ảnh 01 về chúng tôi */
+.image01{
+position: absolute;
+left: 33%;
+top: 63%;
+
+}
+
+/* ảnh về chúng tôi */
+.ceo1{
+position: absolute;
+right: 46%;
+top: 53%;
+font-size: 20px;
+
+}
 /* Dịch vụ nỗi bật css */
 
 /* CODE DỊCH VỤ NỖI BẬT */
