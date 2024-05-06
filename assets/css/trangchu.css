@@ -47,13 +47,12 @@ top: 1%;
 }
 /* ybe */
 
-.navbar-icon img {
-  width: 40px;
-  height: 30px;
-  border-radius: 50%;
+.navbar-icon-yt{
+
   position: absolute;
-  left: 83%;
+  left: 82%;
   top: 1%;
+
 }
 
 
@@ -61,7 +60,7 @@ top: 1%;
 /*  */
 
 
-.navbar-icon-fb img{
+/* .navbar-icon-fb img{
 
   width: 40px;
   height: 30px;
@@ -70,6 +69,13 @@ top: 1%;
   left: 80%;
 top: 1%;
 
+} */
+/* hình iconfb */
+.navbar-icon-fb {
+  position: absolute;
+  left: 80%;
+  top: 1%;
+ 
 }
 
 /*  */
