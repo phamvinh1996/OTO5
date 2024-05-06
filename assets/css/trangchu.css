@@ -948,6 +948,7 @@ p {
   top: 37px;
   width: 15%;
   /* Loại bỏ hoạt hình mặc định */
+
 }
 
 .ExperienceText {
@@ -964,7 +965,9 @@ p {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   transform-origin: center center;
+  
 }
+
 
 @keyframes rotateImage {
   0% {
