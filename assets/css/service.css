@@ -343,3 +343,13 @@ top: 1%;
 }
 
 
+
+/*  */
+.white-text001 {
+  color: white;
+  position: relative;
+  transform: translateX(107%);
+  position: absolute;
+  right: -3%;
+  top: -46;
+}
