@@ -1005,7 +1005,6 @@ p {
    font-size: 16px;
   position: relative;
   top: -46%;
-
 } 
 
  .color1{
@@ -1014,6 +1013,7 @@ p {
   right: 12%;
   top: 78%;
   font-size: 28px;
+
  }
 
 
@@ -1023,6 +1023,7 @@ p {
 position: absolute;
 left: 33%;
 top: 75%;
+
 }
 
 /* ảnh về chúng tôi */
@@ -1031,6 +1032,7 @@ position: absolute;
 right: 46%;
 top: 70%;
 font-size: 20px;
+
 } 
 /* Dịch vụ nỗi bật css */
 
