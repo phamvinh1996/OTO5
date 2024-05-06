@@ -2342,6 +2342,9 @@ left: 50%;
   color: white;
   position: relative;
   transform: translateX(-37%);
+
+  position: absolute;
+  right: -19%;
 }
 
 .img-car {
