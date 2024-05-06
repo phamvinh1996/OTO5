@@ -1002,7 +1002,7 @@ p {
 
   .hot1 {
     right: 19%;
-  color: black;
+  color: #7d7d7d;
    font-size: 16px;
   position: relative;
   top: -46%;
@@ -1033,7 +1033,8 @@ top: 75%;
 position: absolute;
 right: 46%;
 top: 70%;
-font-size: 20px;
+font-size: 16px;
+color: #7d7d7d;
 
 } 
 /* Dịch vụ nỗi bật css */
