@@ -944,8 +944,8 @@ p {
 }
 
 .image-container .Image {
-  left: 374px;
-  top: 63px;
+  left: 385px;
+  top: 95px;
   width: 11%;
   /* Loại bỏ hoạt hình mặc định */
 }
@@ -957,8 +957,8 @@ p {
 
 .image-animation {
   position: absolute;
-  top: 10px;
-  left: 307px;
+  top: 48px;
+  left: 320px;
   animation-name: rotateImage;
   animation-duration: 4s;
   animation-timing-function: linear;
