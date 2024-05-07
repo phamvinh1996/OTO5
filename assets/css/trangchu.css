@@ -2773,6 +2773,8 @@ button {
 }
 
 img.image-car1 {
+  left: -9%;
+  position: relative;
   width: 300px;
 
 }
