@@ -2111,14 +2111,12 @@ p {
 /* code html chữ kich co chữ bang hon 1000 */
 
 .table-1 {
-  width: 550px;
-  height: 380px;
+  /* width: 550px; */
+  /* height: 380px; */
   border: 1px solid black;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
-
-
 
 /*  */
 /* hình chu 1 */
