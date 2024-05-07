@@ -945,8 +945,8 @@ p {
 
 .image-container .Image {
   left: 378px;
-  top: 37px;
-  width: 15%;
+  top: 67px;
+  width: 10%;
   /* Loại bỏ hoạt hình mặc định */
 }
 
@@ -958,7 +958,7 @@ p {
 .image-animation {
   position: absolute;
   top: 10px;
-  left: 325px;
+  left: 307px;
   animation-name: rotateImage;
   animation-duration: 4s;
   animation-timing-function: linear;
@@ -2773,7 +2773,7 @@ button {
 }
 
 img.image-car1 {
-  width: 285px;
+  width: 300px;
 
 }
 
