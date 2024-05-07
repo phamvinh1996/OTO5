@@ -129,3 +129,16 @@
     transform: translateX(-100%);
   }
 }
+
+
+
+
+/* code thanh nav */
+.white-text001 {
+  color: white;
+  position: relative;
+  transform: translateX(107%);
+  position: absolute;
+  right: -3%;
+  top: -46;
+}
