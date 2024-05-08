@@ -864,6 +864,7 @@ img {
    position: relative;
   color: #f90;
   left: 39%; 
+  
 }  
 
  .section-heading h4 span:after {
@@ -876,6 +877,7 @@ img {
   top: 0;
   opacity: .8;
   transform: skew(-20deg, 0deg);
+
 }
 
 .section-heading h4 span:before{
@@ -888,6 +890,7 @@ img {
   top: 0;
   opacity: .8;
   transform: skew(-20deg, 0deg);
+
 }
  
 
@@ -901,6 +904,7 @@ img {
   top: 0;
   opacity: 0.8;
   transform: skew(-20deg, 0deg);
+
 }
 
 
