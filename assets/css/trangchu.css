@@ -638,6 +638,15 @@ div#offcanvasDarkNavbar {
   color: white;
   font-family: "Space Grotesk", sans-serif;
 }
+/* Travel securely with us THE BOOK */
+.doct1{
+position: relative;
+left: -23%;
+top: 1%;
+font-family: "Space Grotesk", sans-serif;
+}
+
+
 
 .carousel-caption .btn-view-more {
   font-size: 16px;
