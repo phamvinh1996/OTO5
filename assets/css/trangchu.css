@@ -632,16 +632,17 @@ div#offcanvasDarkNavbar {
   animation: slide-up 0.5s ease 0.3s forwards;
   text-align: text;
   position: relative;
-  left: 15%;
+  left: 32%;
   color: white;
   font-family: "Space Grotesk", sans-serif;
 }
 /* Travel securely with us THE BOOK */
 .doct1{
 position: relative;
-left: -23%;
+left: -28%;
 top: 1%;
 font-family: "Space Grotesk", sans-serif;
+font-size: 18px;
 }
 
 
