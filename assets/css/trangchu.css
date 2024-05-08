@@ -1554,12 +1554,63 @@ color: #7d7d7d;
 /*  */
 /* ĐẶT XE NHANH */
 
-.orange-text {
+/* .orange-text {
   color: orange;
+} */
+
+
+
+
+.section-heading06 {
+  position: relative;
 }
 
+.section-heading06 h4 {
+   position: relative;
+  color: #f90;
+  padding-left: 47px;
+  display: flex;
+  line-height: 16px;
+  top: -37px;
+  font-size: 15px;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section-heading06 h4 span,
+.section-heading06 h4 span:before,
+.section-heading06 h4 span::after {
+  background-color: #f90;
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+}
+
+.section-heading06 h4 span {
+  top: 1px;
+  position: absolute;
+  left: 30px;
+  transform: skew(-20deg, 0deg);
+}
+
+ .section-heading06 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading06 h4 span:before{
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+}
 
 .section-online-booking h3 {
+  left: -654px;
+  position: relative;
   color: #e8dede;
   /* Màu chữ trắng */
 }
@@ -1573,6 +1624,7 @@ color: #7d7d7d;
   width: 300px;
   background-color: #da7b0f;
 }
+
 
 /* đặt màu css button */
 .btn.btn-primary {
