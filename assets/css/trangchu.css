@@ -809,8 +809,9 @@ button.carousel-control-next {
   line-height: 26px;
   margin-bottom: 15px;
   color: rgb(102, 102, 102);
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: var(--spacegrotesk-weight); /* Thay đổi giá trị trọng số tùy theo yêu cầu */
+  font-family:  "Space Grotesk", sans-serif;
+
+
 }
 
 
