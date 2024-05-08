@@ -155,7 +155,7 @@ top: 1%;
 
 .text {
   font-size: 11px;
-  color: black;
+  color: rgb(102, 102, 102)  ;
   position: relative;
   left: 4%;
   font-size: 13px;
@@ -163,7 +163,7 @@ top: 1%;
   font-weight: 700;
   letter-spacing: -1.5px;
   display: block;
-}
+  }
 
 .text1{
   font-size: 13px;
@@ -1502,7 +1502,6 @@ color: #7d7d7d;
   line-height: 16px;
   top: -58px;
   font-size: 17px;
-  
 }
 
 .section-heading001 h4 span,
