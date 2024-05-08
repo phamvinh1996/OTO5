@@ -636,6 +636,7 @@ div#offcanvasDarkNavbar {
   position: relative;
   left: 15%;
   color: white;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .carousel-caption .btn-view-more {
