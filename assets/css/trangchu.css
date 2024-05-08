@@ -619,7 +619,7 @@ div#offcanvasDarkNavbar {
 
   font-weight: bold;
   left: 52%;
-  margin-bottom: 20px;
+  margin-bottom: -7px;
   animation: slide-up 0.5s ease forwards;
 
   text-align: text;
@@ -636,7 +636,6 @@ div#offcanvasDarkNavbar {
   left: 25%;
   color: white;
   font-family: "Space Grotesk", sans-serif;
-  
 }
 /* Travel securely with us THE BOOK */
 .doct1{
