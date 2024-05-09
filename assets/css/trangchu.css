@@ -2599,6 +2599,10 @@ left: 50%;
   width: 150px;
   height: 150px;
   margin-right: 10px;
+
+  left: -119px;
+  top: -57px;
+  position: relative;
 }
 
 .company-info {
@@ -2767,7 +2771,7 @@ left: 50%;
   width: 100px;
   height: 50px;
   top: 91%;
-  
+
 }
 
 /* icon điện thoại callus */
@@ -2890,7 +2894,10 @@ border-radius: 2px;
 /* dòng chữ trắng p */
 
 .description {
+  position: absolute;
+  left: 134px;
   color: white;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 /* nút màu cam  nút dịch vụ nỗi bật*/
