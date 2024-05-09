@@ -2772,13 +2772,14 @@ left: 50%;
 .section-heading090 h4 {
    position: relative;
   color: #f90;
-  padding-left: 818px;
+  padding-left: 883px;
   display: flex;
   line-height: 16px;
   top: 1px;
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
+
 }
 
 .section-heading090 h4 span,
@@ -2795,9 +2796,8 @@ left: 50%;
 .section-heading090 h4 span {
   top: 1px;
   position: absolute;
-  left: 795px;
+  left: 860px;
   transform: skew(-20deg, 0deg);
-  
 }
 
  .section-heading090 h4 span:after {
