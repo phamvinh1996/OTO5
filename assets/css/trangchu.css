@@ -1147,10 +1147,11 @@ color: #7d7d7d;
 }
 
 .cover-image p {
-  color: #c6b9b9;
+  /* color: #c6b9b9; */
   font-size: 17px;
   margin-top: -23px;
   font-family: "Space Grotesk", sans-serif;
+color: rgb(221, 221, 221);
 
 }
 
