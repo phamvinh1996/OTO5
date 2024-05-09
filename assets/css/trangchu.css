@@ -1133,8 +1133,11 @@ color: #7d7d7d;
   top: -39%;
 }
 
-.cover-image .text {
+.cover-image .textdichvunoibat {
   color: #f7eded;
+  position: relative;
+  top: -51px;
+  left: -50px;
   /* Màu chữ trắng */
 }
 
@@ -1145,7 +1148,7 @@ color: #7d7d7d;
 
 .cover-image p {
   color: #c6b9b9;
-  font-size: 20px;
+  font-size: 17px;
   margin-top: -23px;
   font-family: "Space Grotesk", sans-serif;
 
@@ -1496,7 +1499,7 @@ color: #7d7d7d;
 .section-heading001 h4 {
    position: relative;
   color: #f90;
-  padding-left: 223px;
+  padding-left: 193px;
   display: flex;
   line-height: 16px;
   top: -58px;
@@ -1517,7 +1520,7 @@ color: #7d7d7d;
 .section-heading001 h4 span {
   top: 1px;
   position: absolute;
-  left: 198px;
+  left: 170px;
   transform: skew(-20deg, 0deg);
 }
 
