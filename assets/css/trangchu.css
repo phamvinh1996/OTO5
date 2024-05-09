@@ -1767,7 +1767,7 @@ top: 51%;
 .section-heading07 h4 {
    position: relative;
   color: #f90;
-  padding-left: 774px;
+  padding-left: 801px;
   display: flex;
   line-height: 16px;
   top: 1px;
@@ -1790,7 +1790,7 @@ top: 51%;
 .section-heading07 h4 span {
   top: 1px;
   position: absolute;
-  left: 750px;
+  left: 780px;
   transform: skew(-20deg, 0deg);
 }
 
