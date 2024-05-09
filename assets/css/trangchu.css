@@ -2508,6 +2508,14 @@ left: 50%;
 top: 61%;
 left: 50%;
 }
+
+
+/* font chữ 1000 */
+.satisfaction{
+font-size: 16px;
+
+
+}
 /* code di chuyển trang */
 
 /* code bảng 1000 */
@@ -2798,7 +2806,7 @@ left: 50%;
   position: absolute;
   left: 860px;
   transform: skew(-20deg, 0deg);
-  
+
 }
 
  .section-heading090 h4 span:after {
