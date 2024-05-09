@@ -2462,6 +2462,7 @@ p {
 .info1{
 top: -390px;
 border-radius: 60%;
+width: 155px;
 }
 /*  */
 .ten01{
@@ -2478,11 +2479,13 @@ right: 78%;
 .info2{
   top:19%;
   border-radius: 60%;
+  width: 155px;
 }
 
 .ten3{
   position:absolute;
   left: 35%;
+  top: 133px;
 }
 .ten4{
   position: absolute;
@@ -2493,6 +2496,7 @@ right: 78%;
 .info3{
   top: 17%;
   border-radius: 60%;
+  width: 155px;
 }
 .ten05{
 position: absolute;
