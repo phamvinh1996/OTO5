@@ -1790,21 +1790,18 @@ top: 51%;
   position: absolute;
   left: 750px;
   transform: skew(-20deg, 0deg);
-
 }
 
  .section-heading07 h4 span:after {
   content: "";
   left: -10px;
   opacity: 0.5;
-
 }
 
 .section-heading07 h4 span:before{
   content: "";
   left: -20px;
   opacity: 0.2;
-  
 }
 
 
