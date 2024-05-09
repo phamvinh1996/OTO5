@@ -1173,7 +1173,7 @@ color: #7d7d7d;
 
 .card h2 {
   font-size: 22px;
-  margin-left: 10px;
+  margin-left: 161px;
   text-align: left;
 }
 
@@ -1756,13 +1756,69 @@ top: 51%;
 }
 
 
-/* thẻ p màu cam */
-.orange-choosee{
-  color: orange;
-  font-weight: bold;
+/*  choosee taxi chữ màu cam*/
 
-
+.section-heading07 {
+  position: relative;
 }
+
+.section-heading07 h4 {
+   position: relative;
+  color: #f90;
+  padding-left: 774px;
+  display: flex;
+  line-height: 16px;
+  top: 1px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  
+}
+
+.section-heading07 h4 span,
+.section-heading07 h4 span:before,
+.section-heading07 h4 span::after {
+  background-color: #f90;
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+  
+}
+
+.section-heading07 h4 span {
+  top: 1px;
+  position: absolute;
+  left: 750px;
+  transform: skew(-20deg, 0deg);
+}
+
+ .section-heading07 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading07 h4 span:before{
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  TẠO CART ẢNH CHOOSEE TAXI */
 .cart-container {
   display: flex;
@@ -2022,8 +2078,8 @@ p {
 
 
   text-align: left;
-  white-space: pre-line;
-
+  /* white-space: pre-line; */
+  font-family: "Space Grotesk", sans-serif;
 
 }
 .image-row {
@@ -2080,6 +2136,9 @@ p {
 
 h2 {
   color: black;
+  font-family: "Space Grotesk", sans-serif;
+  left: -92px;
+  position: relative;
 }
 
 /* dòng chữ xuống hàng get ridek*/
@@ -2118,6 +2177,61 @@ h2 {
   top: 69px;
   /* Giá trị số âm để di chuyển hình ảnh lên trên */
 }
+
+
+
+/* chữ màu cam ridek */
+
+.section-heading08 {
+  position: relative;
+}
+
+.section-heading08 h4 {
+   position: relative;
+  color: #f90;
+  padding-left: 60px;
+  display: flex;
+  line-height: 16px;
+  top: 1px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  
+}
+
+.section-heading08 h4 span,
+.section-heading08 h4 span:before,
+.section-heading08 h4 span::after {
+  background-color: #f90;
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+  
+}
+
+.section-heading08 h4 span {
+  top: 1px;
+  position: absolute;
+  left: 35px;
+  transform: skew(-20deg, 0deg);
+}
+
+ .section-heading08 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading08 h4 span:before{
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+}
+
+
 
 
 /* CODE CSS HƠN 1000 + Tạo logo bảng */
@@ -2160,6 +2274,61 @@ h2 {
   border: 1px solid gray;
 }
 
+
+
+/* chữ màu cam hơn 1000 */
+
+
+.section-heading09 {
+  position: relative;
+}
+
+.section-heading09 h4 {
+   position: relative;
+  color: #f90;
+  padding-left: 60px;
+  display: flex;
+  line-height: 16px;
+  top: 1px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  
+}
+
+.section-heading09 h4 span,
+.section-heading09 h4 span:before,
+.section-heading09 h4 span::after {
+  background-color: #f90;
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+  
+}
+
+.section-heading09 h4 span {
+  top: 1px;
+  position: absolute;
+  left: 35px;
+  transform: skew(-20deg, 0deg);
+}
+
+ .section-heading09 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading09 h4 span:before{
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+} 
+
+
 /* logo ridek thanh  */
 .logo1 {
   width: 206px;
@@ -2186,6 +2355,7 @@ h2 {
 h1 {
   color: rgb(15, 11, 11);
   text-align: center;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 
@@ -2224,6 +2394,7 @@ p {
   left: 50%; */
   color: #000;
   margin: 0;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 /* ảnh bìa 1000 */
@@ -2557,7 +2728,7 @@ left: 50%;
 .white-text {
   color: white;
   position: relative;
-  transform: translateX(-37%);
+  transform: translateX(2%);
   position: absolute;
   right: -3%;
   
@@ -2599,10 +2770,47 @@ left: 50%;
 
 .icon-telephone1{
 position: absolute;
-top: 62%;
-left: -7%;
+ top: 52%;
+left: -3%; 
 
+
+
+/* background-color: rgba(255, 153, 0, .1);
+width: 60px;
+height: 60px;
+line-height: 60px;
+text-align: center;
+font-size: 40px;
+color: #f90;
+border-radius: 2px; */
+transform: translateX(-50%);
+width: 60px;
+height: 60px;
+/* background-color: rgba(255, 153, 0, .1); */
+border-radius: 2px;
 }
+
+.icon-telephone1::before {
+content: "";
+position: absolute;
+top: -9%;
+left: 170%;
+transform: translateX(-50%);
+width: 70px;
+height: 70px;
+line-height: 60px;
+text-align: center;
+font-size: 40px;
+color: #f90;
+background-color: rgba(255, 153, 0, .1);
+border-radius: 2px;
+}
+
+
+
+
+
+
 
 /*  */
 
