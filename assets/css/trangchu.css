@@ -1634,7 +1634,8 @@ color: rgb(221, 221, 221);
 
 /* chữ màu chữ đen button */
 .btn.btn-primary {
-  color: #495057;
+  color: white;
+
 }
 
 /* clip path cắt ảnh */
