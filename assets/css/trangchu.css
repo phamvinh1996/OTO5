@@ -2338,6 +2338,73 @@ h2 {
 } 
 
 
+
+
+
+/*   lợi ích đặt xe hon 1000 */
+/* code icon  */
+.custom-size{
+font-size: 71px;
+}
+
+.custom-size01{
+font-size: 71px;
+
+}
+.custom-size02{
+  top: 72%;
+  font-size: 82px;
+  position: absolute;
+  right: 88px;
+}
+
+/* code loi ich dat xe hơn 1000 về dấu ghạch */
+
+
+
+.section-heading101 {
+  position: relative;
+}
+
+
+
+.section-heading101 h4 span,
+.section-heading101 h4 span:before,
+.section-heading101 h4 span::after {
+  background-color: rgb(236, 233, 226);
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+}
+
+.section-heading101 h4 span {
+  top: 11px;
+  position: absolute;
+  left: 38px;
+  transform: skew(-20deg, 0deg);
+
+}
+
+ .section-heading101 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading101 h4 span:before{
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+} 
+
+
+
+
+
+
+
 /* logo ridek thanh  */
 .logo1 {
   width: 206px;
